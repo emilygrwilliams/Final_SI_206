@@ -3,6 +3,10 @@
 import requests
 import sqlite3
 import os
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
 
 # url for the api
 calendarific_base_url = "https://calendarific.com/api/v2/holidays"
@@ -80,3 +84,59 @@ def fetch_holiday_data(country, year):
 #print("Movie Data:", movie_data)
 #print("Weather Data:", weather_data)
 #print("Holiday Data:", holiday_data)
+
+# filter movies if vote_count > 100 and get release_date and vote_average
+def filter_movie_data(movies):
+    filtered_movies = []
+    for movie in movies:
+        if movie.get("vote_count", 0) > 100:
+            filtered_movies.append({
+                "title": movie["title"],
+                "release_date": movie.get("release_date", "N/A"),
+                "vote_average": movie.get("vote_average", "N/A"),
+                "vote_count": movie.get("vote_count", 0)
+            })
+    return filtered_movies
+
+# ex usage
+#query = "wizard"
+#movie_data = fetch_movie_data(query)
+
+# filter movies
+#filtered_movie_data = filter_movie_data(movie_data.get("results", []))
+
+# display filtered movie data
+#for movie in filtered_movie_data:
+#    print(f"Title: {movie['title']}")
+#    print(f"Release Date: {movie['release_date']}")
+#    print(f"Vote Average: {movie['vote_average']}")
+#    print(f"Vote Count: {movie['vote_count']}")
+#    print("-" * 30)
+
+# preprocess weather data to categorize conditions
+def preprocess_weather_data(weather_data):
+    pass
+
+# generate choropleth-like map for weather conditions by region using matplotlib
+def generate_weather_map(region_coordinates, weather_data):
+    pass
+
+# generate bar graph comparing box office revenue with nearby holidays
+def generate_bar_graph(box_office_data, holiday_data):
+    pass
+
+# generate scatter plot correlating box office revenue with weather
+def generate_scatter_plot(movie_data, weather_data, holiday_data):
+    pass
+
+
+# example weather and holiday data for visualization
+
+# preprocess weather data to categorize conditions
+
+
+# generate the choropleth
+
+# generate the bar graph comparing box office revenue with nearby holidays
+
+# generate the scatter plot correlating box office revenue with weather
