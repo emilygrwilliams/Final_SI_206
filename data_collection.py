@@ -71,11 +71,11 @@ def fetch_holiday_data(country, year):
     response = requests.get(url)
     return response.json()
 
-# filter movies if vote_count > 100 and get release_date and vote_average
+# filter movies if vote_count > 50 and get release_date and vote_average
 def filter_movie_data(movies):
     filtered_movies = []
     for movie in movies:
-        if movie.get("vote_count", 0) > 100:
+        if movie.get("vote_count", 0) > 50:
             filtered_movies.append({
                 "title": movie["title"],
                 "release_date": movie.get("release_date", "N/A"),
@@ -126,14 +126,41 @@ def add_holiday_proximity_to_movies():
 
 # run the functions to collect and store data
 if __name__ == "__main__":
-    # fetch movie data
-    movies_data = fetch_movie_data("and") #picked a word that would get a decent amount of movies
-    filtered_movies = filter_movie_data(movies_data['results'])
-    save_movie_data(filtered_movies)
+    queries = ["Avengers", "Batman", "Spider-Man", "Superman", "Hulk", "Iron Man"]
+    all_filtered_movies = []
+
+    for query in queries:
+        movies_data = fetch_movie_data(query)
+        if 'results' in movies_data:
+            filtered_movies = filter_movie_data(movies_data['results'])
+            all_filtered_movies.extend(filtered_movies)
+            save_movie_data(filtered_movies)
+        else:
+            print(f"No results found for query: {query}")
 
     # fetch holiday data and save it
 
     # add holiday proximity information to movies.db
 
     # output for verification
-    print(f"Saved {len(filtered_movies)} movies data.")
+    print(f"Saved {len(all_filtered_movies)} movies data.")
+
+    
+    # all rows in the movies table
+    conn = sqlite3.connect("movies.db")
+    c = conn.cursor()
+    c.execute("SELECT * FROM movies")
+    rows = c.fetchall()
+    for row in rows:
+        print(row)
+    conn.close()
+
+    # all rows from the holidays table
+    conn = sqlite3.connect("movies.db")
+    c = conn.cursor()
+    c.execute("SELECT * FROM holidays")
+    rows = c.fetchall()
+    print("Contents of the holidays table:")
+    for row in rows:
+        print(row)  
+    conn.close()
