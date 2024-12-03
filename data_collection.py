@@ -5,24 +5,24 @@ import datetime
 from bs4 import BeautifulSoup
 import re
 
-# API and URL constants
+# urls
 calendarific_base_url = "https://calendarific.com/api/v2/holidays"
 tmdb_base_url = "https://api.themoviedb.org/3"
-tomorrow_io_base_url = "https://api.tomorrow.io/v4/weather/timelines"
+tomorrow_io_base_url = "https://api.tomorrow.io/v4/weather/forecast"
 marvel_url = 'https://www.marvel.com/comics/characters'
 
-# API keys
+# api keys
 calendarific_api_key = "BIijlOUbCxMFspLKxsigqETCVsTyvZLe"
 tmdb_api_key = "e8b8d5f8e00eb7585b9abbb08ecae48f"
 tomorrow_io_api_key = "6VPq9bMwfUqVDOxlCHBIwzNBcIICxEdL"
 
-# Database setup
+# db setup
 db_path = "movies.db"
 if not os.path.exists(db_path):
     conn = sqlite3.connect(db_path)
     c = conn.cursor()
 
-    # Create tables
+    # create tables
     c.execute('''CREATE TABLE movies (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     title TEXT UNIQUE,
@@ -56,11 +56,11 @@ if not os.path.exists(db_path):
     conn.commit()
     conn.close()
 
-# Get database connection
+# get database connection
 def get_db_connection():
     return sqlite3.connect(db_path)
 
-# Fetch Marvel characters
+# fetch marvel characters
 def marvel_list(url):
     response = requests.get(url)
     if response.status_code != 200:
@@ -77,7 +77,7 @@ def marvel_list(url):
 
     return sorted(character_set)
 
-# Fetch movie data from TMDB
+# fetch movie data from TMDB
 def fetch_movie_data(query):
     url = f"{tmdb_base_url}/search/movie?api_key={tmdb_api_key}&query={query}"
     try:
@@ -88,7 +88,7 @@ def fetch_movie_data(query):
         print(f"Error fetching movie data for query '{query}': {e}")
         return {}
 
-# Save movie data to database
+# save movie data to database
 def save_movie_data(movies):
     conn = get_db_connection()
     c = conn.cursor()
@@ -99,7 +99,7 @@ def save_movie_data(movies):
     conn.commit()
     conn.close()
 
-# Fetch weather data from Tomorrow.io
+# fetch weather data from Tomorrow.io
 def fetch_weather_data(latitude, longitude):
     url = f"{tomorrow_io_base_url}?apikey={tomorrow_io_api_key}&location={latitude},{longitude}"
     try:
@@ -110,7 +110,7 @@ def fetch_weather_data(latitude, longitude):
         print(f"Error fetching weather data: {e}")
         return {}
 
-# Save city data to the database
+# save city data to the database
 def save_city_data(city_name, latitude, longitude):
     conn = get_db_connection()
     c = conn.cursor()
@@ -120,15 +120,13 @@ def save_city_data(city_name, latitude, longitude):
         c.execute("INSERT INTO cities (location, latitude, longitude) VALUES (?, ?, ?)", 
                   (city_name, latitude, longitude))
         conn.commit()
-        print(f"Saved city: {city_name}")
     conn.close()
 
-# Save weather data to database
+# save weather data to database
 def save_weather_data(weather, city_name, latitude, longitude):
     conn = get_db_connection()
     c = conn.cursor()
 
-    # Get or insert city
     c.execute("SELECT id FROM cities WHERE location = ?", (city_name,))
     city = c.fetchone()
     if city is None:
@@ -138,14 +136,13 @@ def save_weather_data(weather, city_name, latitude, longitude):
     else:
         city_id = city[0]
 
-    # Insert weather data
     c.execute('''INSERT INTO weather (city_id, temperature, precipitation_type, weather_code) 
                  VALUES (?, ?, ?, ?)''',
               (city_id, weather.get('temperature'), weather.get('precipitationType'), weather.get('weatherCode')))
     conn.commit()
     conn.close()
 
-# Fetch holiday data from Calendarific
+# fetch holiday data from Calendarific
 def fetch_holiday_data(country, year):
     url = f"{calendarific_base_url}?api_key={calendarific_api_key}&country={country}&year={year}"
     try:
@@ -156,20 +153,23 @@ def fetch_holiday_data(country, year):
         print(f"Error fetching holiday data: {e}")
         return {}
 
-# Save holiday data to the database
+# save holiday data to the database
 def save_holiday_data(holidays):
     conn = get_db_connection()
     c = conn.cursor()
     for holiday in holidays:
-        c.execute('''INSERT INTO holidays (holiday_name, date) 
-                     VALUES (?, ?)''', 
-                  (holiday['name'], holiday['date']))
+        holiday_name = holiday.get('name', 'Unknown')  # Extract holiday name
+        holiday_date = holiday.get('date', {}).get('iso', None)  # Extract holiday date (ISO format)
+        if holiday_date:  # Only insert if date is valid
+            c.execute('''INSERT INTO holidays (holiday_name, date) 
+                         VALUES (?, ?)''', 
+                      (holiday_name, holiday_date))
     conn.commit()
     conn.close()
 
-# Main function
+# main function
 if __name__ == "__main__":
-    # Fetch and save movie data
+    # fetch and save movie data
     queries = marvel_list(marvel_url)
     all_filtered_movies = []
 
@@ -188,7 +188,7 @@ if __name__ == "__main__":
             all_filtered_movies.extend(filtered_movies)
             save_movie_data(filtered_movies)
 
-    # Fetch and save city data
+    # fetch and save city data
     city_examples = [
         {"name": "San Francisco", "latitude": 37.7749, "longitude": -122.4194},
         {"name": "New York", "latitude": 40.7128, "longitude": -74.0060}
@@ -196,12 +196,13 @@ if __name__ == "__main__":
     for city in city_examples:
         save_city_data(city["name"], city["latitude"], city["longitude"])
 
-    # Fetch and save holiday data
+    # fetch and save holiday data
     holidays_data = fetch_holiday_data("US", datetime.datetime.now().year)
     if 'response' in holidays_data and 'holidays' in holidays_data['response']:
-        save_holiday_data(holidays_data['response']['holidays'])
+        holidays = holidays_data['response']['holidays']
+        save_holiday_data(holidays)
 
-    # Fetch and save weather data
+    # fetch and save weather data
     for city in city_examples:
         weather_data = fetch_weather_data(city["latitude"], city["longitude"])
        
