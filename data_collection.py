@@ -110,7 +110,7 @@ def save_movie_data(movies):
     for movie in movies:
         c.execute('''INSERT OR IGNORE INTO movies (title, release_date, popularity, box_office) 
                      VALUES (?, ?, ?, ?)''', 
-                  (movie['title'], movie['release_date'], movie['vote_average'], 0))
+                  (movie['title'], movie['release_date'], movie['vote_average'], movie['vote_count']))
     conn.commit()
     conn.close()
 
