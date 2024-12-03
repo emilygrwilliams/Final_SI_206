@@ -10,33 +10,38 @@ def get_db_connection():
 
 # function to read and prepare data
 def analyze_data():
-    conn = get_db_connection()
+    pass
 
-    # join data from movies, weather, and holidays
+# function to find movies near holidays
+def movies_near_holidays():
+    conn = sqlite3.connect("movies.db")
+    c = conn.cursor()
+    
     query = '''
-        SELECT 
-            m.title, 
-            m.box_office, 
-            m.release_date, 
-            w.temperature, 
-            w.description AS weather_description, 
-            h.holiday_name
-        FROM movies m
-        LEFT JOIN weather w ON m.id = w.movie_id
-        LEFT JOIN holidays h ON m.id = h.movie_id
+    SELECT 
+        m.title, 
+        m.release_date, 
+        h.holiday_name, 
+        h.date AS holiday_date,
+        ABS(julianday(m.release_date) - julianday(h.date)) AS days_difference
+    FROM 
+        movies m
+    JOIN 
+        holidays h
+    ON 
+        ABS(julianday(m.release_date) - julianday(h.date)) <= 30
+    ORDER BY 
+        m.release_date, days_difference;
     '''
     
-    df = pd.read_sql_query(query, conn)
+    c.execute(query)
+    results = c.fetchall()
+    
+    #needs to be changed
+    for row in results:
+        print(f"Movie: {row[0]} | Release Date: {row[1]} | Holiday: {row[2]} | Holiday Date: {row[3]} | Days Difference: {row[4]}")
+    
     conn.close()
-
-    # add holiday_present column
-    df['holiday_present'] = df['holiday_name'].notnull()
-    
-    # save report to csv
-    df.to_csv('movies_report.csv', index=False)
-    print("Report saved to movies_report.csv")
-    
-    return df
 
 # function to create a bar plot
 def create_bar_plot(df):

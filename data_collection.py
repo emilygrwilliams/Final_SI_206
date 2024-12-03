@@ -1,5 +1,4 @@
 #pip install meteostat
-
 import requests
 import sqlite3
 import os
@@ -9,7 +8,7 @@ import re
 from meteostat import Point, Daily
 import pandas as pd
 
-# URLs and API keys
+# url and api keys
 calendarific_base_url = "https://calendarific.com/api/v2/holidays"
 tmdb_base_url = "https://api.themoviedb.org/3"
 marvel_url = 'https://www.marvel.com/comics/characters'
@@ -17,13 +16,13 @@ marvel_url = 'https://www.marvel.com/comics/characters'
 calendarific_api_key = "BIijlOUbCxMFspLKxsigqETCVsTyvZLe"
 tmdb_api_key = "e8b8d5f8e00eb7585b9abbb08ecae48f"
 
-# Database setup
+# db setup
 db_path = "movies.db"
 if not os.path.exists(db_path):
     conn = sqlite3.connect(db_path)
     c = conn.cursor()
 
-    # Create tables
+    # create tables
     c.execute('''CREATE TABLE movies (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     title TEXT UNIQUE,
@@ -57,11 +56,11 @@ if not os.path.exists(db_path):
     conn.commit()
     conn.close()
 
-# Get database connection
+# database connection
 def get_db_connection():
     return sqlite3.connect(db_path)
 
-# Fetch Marvel characters
+# fetch Marvel characters
 def marvel_list(url):
     response = requests.get(url)
     if response.status_code != 200:
@@ -78,7 +77,7 @@ def marvel_list(url):
 
     return sorted(character_set)
 
-# Fetch movie data from TMDB
+# fetch movie data from TMDB
 def fetch_movie_data(query):
     url = f"{tmdb_base_url}/search/movie?api_key={tmdb_api_key}&query={query}"
     try:
@@ -89,7 +88,7 @@ def fetch_movie_data(query):
         print(f"Error fetching movie data for query '{query}': {e}")
         return {}
 
-# Save movie data to database
+# save movie data to database
 def save_movie_data(movies):
     conn = get_db_connection()
     c = conn.cursor()
@@ -103,9 +102,9 @@ def save_movie_data(movies):
     conn.close()
 
 
-# Fetch holiday data from Calendarific
+# fetch holiday data from Calendarific
 def fetch_holiday_data(country, year):
-    url = f"{calendarific_base_url}?api_key={calendarific_api_key}&country={country}&year={year}"
+    url = f"{calendarific_base_url}?api_key={calendarific_api_key}&country={country}&year={year}&type=national"
     try:
         response = requests.get(url)
         response.raise_for_status()
@@ -114,7 +113,7 @@ def fetch_holiday_data(country, year):
         print(f"Error fetching holiday data: {e}")
         return {}
 
-# Save holiday data to the database
+# save holiday data to the database
 def save_holiday_data(holidays):
     conn = get_db_connection()
     c = conn.cursor()
@@ -134,7 +133,7 @@ def save_holiday_data(holidays):
     conn.close()
 
 
-# Save city data to the database
+# save city data to the database
 def save_city_data(city_name, latitude, longitude):
     conn = get_db_connection()
     c = conn.cursor()
@@ -146,7 +145,7 @@ def save_city_data(city_name, latitude, longitude):
         conn.commit()
     conn.close()
 
-# Fetch historical weather data using Meteostat
+# fetch historical weather data using Meteostat
 def fetch_weather_data(latitude, longitude, start_date, end_date):
     location = Point(latitude, longitude)
     data = Daily(location, start_date, end_date)
@@ -154,7 +153,7 @@ def fetch_weather_data(latitude, longitude, start_date, end_date):
 
     return df.reset_index()
 
-# Save weather data to database
+# save weather data to database
 def save_weather_data(weather_data, city_name):
     conn = get_db_connection()
     c = conn.cursor()
@@ -178,9 +177,9 @@ def save_weather_data(weather_data, city_name):
     conn.close()
 
 
-# Main function
+# main function
 if __name__ == "__main__":
-    # Fetch and save movie data
+    # movie data
     queries = marvel_list(marvel_url)
     all_filtered_movies = []
 
@@ -199,7 +198,7 @@ if __name__ == "__main__":
             all_filtered_movies.extend(filtered_movies)
             save_movie_data(filtered_movies)
 
-    # Fetch and save city data
+    # city data
     city_examples = [
         {"name": "San Francisco", "latitude": 37.7749, "longitude": -122.4194},
         {"name": "New York", "latitude": 40.7128, "longitude": -74.0060}
@@ -207,13 +206,13 @@ if __name__ == "__main__":
     for city in city_examples:
         save_city_data(city["name"], city["latitude"], city["longitude"])
 
-    # Fetch and save holiday data
+    # holiday data
     holidays_data = fetch_holiday_data("US", datetime.datetime.now().year)
     if 'response' in holidays_data and 'holidays' in holidays_data['response']:
         holidays = holidays_data['response']['holidays']
         save_holiday_data(holidays)
 
-    # Fetch and save historical weather data
+    # weather data
     start_date = datetime.datetime(2023, 1, 1)
     end_date = datetime.datetime(2023, 12, 31)
 
