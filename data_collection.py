@@ -2,11 +2,14 @@ import requests
 import sqlite3
 import os
 import datetime
+from bs4 import BeautifulSoup
+import re
 
-# url for the api
+# url for the api and beautiful soup
 calendarific_base_url = "https://calendarific.com/api/v2/holidays"
 tmdb_base_url = "https://api.themoviedb.org/3"
 tomorrow_io_base_url = "https://api.tomorrow.io/v4/weather/forecast"
+marvel_url = 'https://www.marvel.com/comics/characters'
 
 # api Keys
 calendarific_api_key = "BIijlOUbCxMFspLKxsigqETCVsTyvZLe"
@@ -52,6 +55,22 @@ if not os.path.exists(db_path):
 # connect to the database
 def get_db_connection():
     return sqlite3.connect(db_path)
+
+# create a list of marvel characters
+def marvel_list(url):
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    character_set = set()
+
+    characters = soup.select('li.ListAZ__List_Item a')
+    for character in characters:
+        name = character.text.strip()
+        cleaned_name = re.sub(r'\s*\(.*?\)', '', name)
+        character_set.add(cleaned_name)
+
+    character_list = sorted(character_set)
+    return(character_list)
 
 # fetch movie data from TMDB
 def fetch_movie_data(query):
@@ -116,7 +135,7 @@ def save_weather_data(weather, movie_id):
     conn.commit()
     conn.close()
 
-# check if the movie's release date is within 30 days of a holiday (use datetime)
+# check if the movie's release date is within 15 days of a holiday (use datetime)
 def check_nearby_holiday(movie_release_date):
     pass
 
@@ -126,7 +145,7 @@ def add_holiday_proximity_to_movies():
 
 # run the functions to collect and store data
 if __name__ == "__main__":
-    queries = ["Avengers", "Batman", "Spider-Man", "Superman", "Hulk", "Iron Man"]
+    queries = marvel_list(marvel_url)
     all_filtered_movies = []
 
     for query in queries:
@@ -158,9 +177,10 @@ if __name__ == "__main__":
     # all rows from the holidays table
     conn = sqlite3.connect("movies.db")
     c = conn.cursor()
-    c.execute("SELECT * FROM holidays")
+    c.execute("SELECT * FROM weather")
     rows = c.fetchall()
-    print("Contents of the holidays table:")
+    print("Contents of the weather table:")
     for row in rows:
         print(row)  
     conn.close()
+
