@@ -81,11 +81,11 @@ def create_line_graph(df):
 def create_pie_chart(df):
     df['temp_category'] = df['temperature'].apply(lambda x: '≤ 15°C' if x <= 15 else '> 15°C') #help from AI
     
-    temp_votes = df.groupby('temp_category')['box_office'].sum() #help from AI
+    temp_votes = df.groupby('temp_category')['popularity'].sum() #help from AI
     
     plt.figure(figsize=(8, 8))
     plt.pie(temp_votes, labels=temp_votes.index, autopct='%1.1f%%', startangle=140, colors=['skyblue', 'orange']) #help from AI
-    plt.title('Box Office Revenue Based on Temperature Category')
+    plt.title('Popularity Based on Temperature Category')
     plt.tight_layout()
     plt.show()
 
