@@ -84,7 +84,7 @@ def fetch_movie_data(query):
         response = requests.get(url)
         response.raise_for_status()
         return response.json()
-    except requests.exceptions.RequestException as e:
+    except requests.exceptions.RequestException as e: #help from AI
         print(f"Error fetching movie data for query '{query}': {e}")
         return {}
 
@@ -93,7 +93,7 @@ def save_movie_data(movies):
     conn = get_db_connection()
     c = conn.cursor()
     for movie in movies:
-        release_year = movie['release_date'][:4] if movie['release_date'] != "N/A" else None
+        release_year = movie['release_date'][:4] if movie['release_date'] != "N/A" else None #help from AI
         if release_year == '2023' and movie['vote_count'] > 100:  # only save 2023 movies with vote count > 100
             c.execute('''INSERT OR IGNORE INTO movies (title, release_date, popularity, box_office) 
                          VALUES (?, ?, ?, ?)''', 
@@ -109,7 +109,7 @@ def fetch_holiday_data(country, year):
         response = requests.get(url)
         response.raise_for_status()
         return response.json()
-    except requests.exceptions.RequestException as e:
+    except requests.exceptions.RequestException as e: #help from AI
         print(f"Error fetching holiday data: {e}")
         return {}
 
@@ -166,8 +166,8 @@ def save_weather_data(weather_data, city_name):
 
     for _, row in weather_data.iterrows():
         date_str = row['time'].strftime('%Y-%m-%d')
-        temperature = row['tavg']  # Use 'tavg' for average temperature
-        precipitation = row.get('prcp', 0)  # Use 'prcp' for precipitation, default to 0 if missing
+        temperature = row['tavg'] 
+        precipitation = row.get('prcp', 0)
 
         c.execute('''INSERT INTO weather (city_id, date, temperature, precipitation) 
                      VALUES (?, ?, ?, ?)''',
