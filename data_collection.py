@@ -94,7 +94,7 @@ def save_movie_data(movies):
     c = conn.cursor()
     for movie in movies:
         release_year = movie['release_date'][:4] if movie['release_date'] != "N/A" else None #help from AI
-        if release_year == '2023' and movie['vote_count'] > 100:  # only save 2023 movies with vote count > 100
+        if release_year == '2023' or release_year == '2024' and movie['vote_count'] > 100:  # only save 2023 and 2024 movies with vote count > 100
             c.execute('''INSERT OR IGNORE INTO movies (title, release_date, popularity, box_office) 
                          VALUES (?, ?, ?, ?)''', 
                       (movie['title'], movie['release_date'], movie['vote_average'], movie['vote_count']))
@@ -104,7 +104,7 @@ def save_movie_data(movies):
 
 # fetch holiday data from Calendarific
 def fetch_holiday_data(country, year):
-    url = f"{calendarific_base_url}?api_key={calendarific_api_key}&country={country}&year={year}&type=national"
+    url = f"{calendarific_base_url}?api_key={calendarific_api_key}&country={country}&year={year}&type=national,local"
     try:
         response = requests.get(url)
         response.raise_for_status()
@@ -214,7 +214,7 @@ if __name__ == "__main__":
 
     # weather data
     start_date = datetime.datetime(2023, 1, 1)
-    end_date = datetime.datetime(2023, 12, 31)
+    end_date = datetime.datetime(2024, 12, 31)
 
     for city in city_examples:
         df_weather = fetch_weather_data(city["latitude"], city["longitude"], start_date, end_date)

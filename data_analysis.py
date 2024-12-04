@@ -29,7 +29,7 @@ def analyze_data():
     FROM 
         movies m
     LEFT JOIN 
-        holidays h ON ABS(julianday(m.release_date) - julianday(h.date)) <= 30
+        holidays h ON ABS(julianday(m.release_date) - julianday(h.date)) <= 5
     LEFT JOIN 
         weather w ON julianday(m.release_date) = julianday(w.date)
     LEFT JOIN 
@@ -46,7 +46,7 @@ def analyze_data():
 def create_bar_plot(df):
     df['holiday_nearby'] = df['days_difference'].notna()
     avg_popularity = df.groupby('holiday_nearby')['popularity'].mean().reset_index() #help from AI
-    avg_popularity['holiday_nearby'] = avg_popularity['holiday_nearby'].replace({True: 'Holiday Nearby', False: 'No Holiday Nearby'})
+    avg_popularity['holiday_nearby'] = avg_popularity['holiday_nearby'].replace({True: 'Holiday Nearby', False: 'No Holiday Nearby'}) #help from AI
     
     plt.figure(figsize=(8, 6))
     sns.barplot(data=avg_popularity, x='holiday_nearby', y='popularity')
@@ -68,14 +68,20 @@ def create_scatter_plot(df):
 
 # function to create a line graph comparing temperatures in both cities
 def create_line_graph(df):
+    df['weather_date'] = pd.to_datetime(df['weather_date'])
+
     plt.figure(figsize=(12, 6))
     sns.lineplot(data=df, x='weather_date', y='temperature', hue='city_name')
     plt.title('Temperature Trends in Cities')
     plt.xlabel('Month')
     plt.ylabel('Temperature (°C)')
+    plt.xlim(pd.Timestamp('2023-01-01'), pd.Timestamp('2024-12-31')) #help from AI
+    plt.gca().xaxis.set_major_locator(mdates.MonthLocator()) #help from AI
+    plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%b %Y')) #help from AI
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.show()
+
 
 # function to create a pie chart comparing vote counts by temperature
 def create_pie_chart(df):
