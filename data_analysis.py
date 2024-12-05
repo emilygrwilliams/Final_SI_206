@@ -75,7 +75,7 @@ def create_line_graph(df):
     plt.title('Temperature Trends in Cities')
     plt.xlabel('Month')
     plt.ylabel('Temperature (°C)')
-    plt.xlim(pd.Timestamp('2023-01-01'), pd.Timestamp('2024-12-31')) #help from AI
+    plt.xlim(pd.Timestamp('2021-01-01'), pd.Timestamp('2023-12-31')) #help from AI
     plt.gca().xaxis.set_major_locator(mdates.MonthLocator()) #help from AI
     plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%b %Y')) #help from AI
     plt.xticks(rotation=45)
