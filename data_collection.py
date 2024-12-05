@@ -88,20 +88,6 @@ def fetch_movie_data(query):
         print(f"Error fetching movie data for query '{query}': {e}")
         return {}
 
-# save movie data to database
-def save_movie_data(movies):
-    conn = get_db_connection()
-    c = conn.cursor()
-    for movie in movies:
-        release_year = movie['release_date'][:4] if movie['release_date'] != "N/A" else None #help from AI
-        if release_year == '2023' or release_year == '2024' and movie['vote_count'] > 100:  # only save 2023 and 2024 movies with vote count > 100
-            c.execute('''INSERT OR IGNORE INTO movies (title, release_date, popularity, box_office) 
-                         VALUES (?, ?, ?, ?)''', 
-                      (movie['title'], movie['release_date'], movie['vote_average'], movie['vote_count']))
-    conn.commit()
-    conn.close()
-
-
 # fetch holiday data from Calendarific
 def fetch_holiday_data(country, year):
     url = f"{calendarific_base_url}?api_key={calendarific_api_key}&country={country}&year={year}&type=national,local"
@@ -112,26 +98,6 @@ def fetch_holiday_data(country, year):
     except requests.exceptions.RequestException as e: #help from AI
         print(f"Error fetching holiday data: {e}")
         return {}
-
-# save holiday data to the database
-def save_holiday_data(holidays):
-    conn = get_db_connection()
-    c = conn.cursor()
-
-    for holiday in holidays:
-        holiday_name = holiday.get('name', 'Unknown')
-        holiday_date = holiday.get('date', {}).get('iso', None)
-        if holiday_date:
-            c.execute('''SELECT id FROM holidays WHERE holiday_name = ? AND date = ?''', 
-                      (holiday_name, holiday_date))
-            existing = c.fetchone()
-            if not existing:
-                c.execute('''INSERT INTO holidays (holiday_name, date) 
-                             VALUES (?, ?)''', 
-                          (holiday_name, holiday_date))
-    conn.commit()
-    conn.close()
-
 
 # save city data to the database
 def save_city_data(city_name, latitude, longitude):
@@ -153,10 +119,38 @@ def fetch_weather_data(latitude, longitude, start_date, end_date):
 
     return df.reset_index()
 
-# save weather data to database
-def save_weather_data(weather_data, city_name):
+# save movie data to database with limit
+def save_movie_data(movies):
     conn = get_db_connection()
     c = conn.cursor()
+    inserted = 0
+    batch = 25  # 25 new movies per run
+
+    c.execute('SELECT title FROM movies')
+    existing_titles = {row[0] for row in c.fetchall()}
+
+    for movie in movies:
+        if movie['title'] not in existing_titles:
+            release_year = movie['release_date'][:4] if movie['release_date'] != "N/A" else None
+            if release_year in ['2021', '2022','2023'] and movie['vote_count'] > 100:
+                c.execute('''INSERT OR IGNORE INTO movies (title, release_date, popularity, box_office) 
+                             VALUES (?, ?, ?, ?)''', 
+                          (movie['title'], movie['release_date'], movie['vote_average'], movie['vote_count']))
+                if c.rowcount > 0:
+                    inserted += 1
+                    existing_titles.add(movie['title'])
+                if inserted >= batch:
+                    break
+
+    conn.commit()
+    conn.close()
+
+
+# save weather data to database with limit
+def save_weather_data_limited(weather_data, city_name, limit=500): #limit 500 per run because the table eventually has about 2000 rows
+    conn = get_db_connection()
+    c = conn.cursor()
+    inserted_count = 0
 
     c.execute("SELECT id FROM cities WHERE location = ?", (city_name,))
     city = c.fetchone()
@@ -165,14 +159,41 @@ def save_weather_data(weather_data, city_name):
     city_id = city[0]
 
     for _, row in weather_data.iterrows():
+        if inserted_count >= limit:
+            break
         date_str = row['time'].strftime('%Y-%m-%d')
-        temperature = row['tavg'] 
+        temperature = row['tavg']
         precipitation = row.get('prcp', 0)
 
-        c.execute('''INSERT INTO weather (city_id, date, temperature, precipitation) 
-                     VALUES (?, ?, ?, ?)''',
-                  (city_id, date_str, temperature, precipitation))
+        c.execute('''SELECT id FROM weather WHERE city_id = ? AND date = ?''',
+                  (city_id, date_str))
+        if not c.fetchone():
+            c.execute('''INSERT INTO weather (city_id, date, temperature, precipitation)
+                         VALUES (?, ?, ?, ?)''',
+                      (city_id, date_str, temperature, precipitation))
+            inserted_count += 1
+    conn.commit()
+    conn.close()
 
+# save holiday data to database with limit
+def save_holiday_data_limited(holidays, limit=25):
+    conn = get_db_connection()
+    c = conn.cursor()
+    inserted_count = 0
+
+    for holiday in holidays:
+        if inserted_count >= limit:
+            break
+        holiday_name = holiday.get('name', 'Unknown')
+        holiday_date = holiday.get('date', {}).get('iso', None)
+        if holiday_date:
+            c.execute('''SELECT id FROM holidays WHERE holiday_name = ? AND date = ?''',
+                      (holiday_name, holiday_date))
+            if not c.fetchone():
+                c.execute('''INSERT INTO holidays (holiday_name, date)
+                             VALUES (?, ?)''',
+                          (holiday_name, holiday_date))
+                inserted_count += 1
     conn.commit()
     conn.close()
 
@@ -192,11 +213,13 @@ if __name__ == "__main__":
                     "release_date": movie.get("release_date", "N/A"),
                     "vote_average": movie.get("vote_average", 0),
                     "vote_count": movie.get("vote_count", 0)
-                } 
-                for movie in movies_data['results'] if movie.get("vote_count", 0) > 50
+                }
+                for movie in movies_data['results']
+                if movie.get("vote_count", 0) > 100
             ]
             all_filtered_movies.extend(filtered_movies)
-            save_movie_data(filtered_movies)
+
+    save_movie_data(all_filtered_movies)
 
     # city data
     city_examples = [
@@ -210,12 +233,13 @@ if __name__ == "__main__":
     holidays_data = fetch_holiday_data("US", datetime.datetime.now().year)
     if 'response' in holidays_data and 'holidays' in holidays_data['response']:
         holidays = holidays_data['response']['holidays']
-        save_holiday_data(holidays)
+        save_holiday_data_limited(holidays)
 
     # weather data
-    start_date = datetime.datetime(2023, 1, 1)
-    end_date = datetime.datetime(2024, 12, 31)
+    start_date = datetime.datetime(2021, 1, 1)
+    end_date = datetime.datetime(2023, 12, 31)
 
     for city in city_examples:
         df_weather = fetch_weather_data(city["latitude"], city["longitude"], start_date, end_date)
-        save_weather_data(df_weather, city["name"])
+        save_weather_data_limited(df_weather, city["name"])
+
