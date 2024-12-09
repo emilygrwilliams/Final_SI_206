@@ -1,80 +1,234 @@
 movie_title,release_date,popularity,box_office,city_name,weather_date,temperature,precipitation,holiday_name,holiday_date,days_difference
-Black Widow,2021-01-01,7.2,10176.0,San Francisco,2021-01-01,9.9,0.0,,,
-Black Widow,2021-01-01,7.2,10176.0,New York,2021-01-01,3.6,17.3,,,
-Pretty Guardian Sailor Moon Eternal the Movie Part 1,2021-01-08,7.824,176.0,San Francisco,2021-01-08,12.0,0.0,,,
-Pretty Guardian Sailor Moon Eternal the Movie Part 1,2021-01-08,7.824,176.0,New York,2021-01-08,1.4,0.0,,,
-Creating The Queen's Gambit,2021-01-10,7.826,121.0,San Francisco,2021-01-10,11.0,0.0,,,
-Creating The Queen's Gambit,2021-01-10,7.826,121.0,New York,2021-01-10,3.0,0.0,,,
-The White Tiger,2021-01-13,7.0,876.0,San Francisco,2021-01-13,13.8,0.0,,,
-The White Tiger,2021-01-13,7.0,876.0,New York,2021-01-13,4.1,0.0,,,
+Black Widow,2021-01-01,7.2,10176.0,San Francisco,2021-01-01,9.9,0.0,New Year's Day,2024-01-01,0.0
+Black Widow,2021-01-01,7.2,10176.0,New York,2021-01-01,3.6,17.3,New Year's Day,2024-01-01,0.0
+Black Widow,2021-01-01,7.2,10176.0,San Francisco,2021-01-01,9.9,0.0,New Year's Eve observed,2024-01-01,0.0
+Black Widow,2021-01-01,7.2,10176.0,New York,2021-01-01,3.6,17.3,New Year's Eve observed,2024-01-01,0.0
+Pretty Guardian Sailor Moon Eternal the Movie Part 1,2021-01-08,7.824,176.0,San Francisco,2021-01-08,12.0,0.0,Estelle Reel Day,2024-01-07,1.0
+Pretty Guardian Sailor Moon Eternal the Movie Part 1,2021-01-08,7.824,176.0,New York,2021-01-08,1.4,0.0,Estelle Reel Day,2024-01-07,1.0
+Pretty Guardian Sailor Moon Eternal the Movie Part 1,2021-01-08,7.824,176.0,San Francisco,2021-01-08,12.0,0.0,Battle of New Orleans,2024-01-08,0.0
+Pretty Guardian Sailor Moon Eternal the Movie Part 1,2021-01-08,7.824,176.0,New York,2021-01-08,1.4,0.0,Battle of New Orleans,2024-01-08,0.0
+Creating The Queen's Gambit,2021-01-10,7.826,121.0,San Francisco,2021-01-10,11.0,0.0,Battle of New Orleans,2024-01-08,2.0
+Creating The Queen's Gambit,2021-01-10,7.826,121.0,New York,2021-01-10,3.0,0.0,Battle of New Orleans,2024-01-08,2.0
+The White Tiger,2021-01-13,7.0,876.0,San Francisco,2021-01-13,13.8,0.0,Martin Luther King Jr. Day,2024-01-15,2.0
+The White Tiger,2021-01-13,7.0,876.0,New York,2021-01-13,4.1,0.0,Martin Luther King Jr. Day,2024-01-15,2.0
+The White Tiger,2021-01-13,7.0,876.0,San Francisco,2021-01-13,13.8,0.0,Robert E. Lee's Birthday,2024-01-15,2.0
+The White Tiger,2021-01-13,7.0,876.0,New York,2021-01-13,4.1,0.0,Robert E. Lee's Birthday,2024-01-15,2.0
+The White Tiger,2021-01-13,7.0,876.0,San Francisco,2021-01-13,13.8,0.0,Idaho Human Rights Day,2024-01-15,2.0
+The White Tiger,2021-01-13,7.0,876.0,New York,2021-01-13,4.1,0.0,Idaho Human Rights Day,2024-01-15,2.0
+The White Tiger,2021-01-13,7.0,876.0,San Francisco,2021-01-13,13.8,0.0,Civil Rights Day,2024-01-15,2.0
+The White Tiger,2021-01-13,7.0,876.0,New York,2021-01-13,4.1,0.0,Civil Rights Day,2024-01-15,2.0
 The Little Things,2021-01-28,6.335,2485.0,San Francisco,2021-01-28,11.5,13.5,,,
 The Little Things,2021-01-28,6.335,2485.0,New York,2021-01-28,-0.5,0.0,,,
 Nomadland,2021-01-29,7.199,2974.0,San Francisco,2021-01-29,10.6,6.6,,,
 Nomadland,2021-01-29,7.199,2974.0,New York,2021-01-29,-4.6,0.0,,,
-The Last Paradiso,2021-02-05,5.9,111.0,San Francisco,2021-02-05,11.4,0.0,,,
-The Last Paradiso,2021-02-05,5.9,111.0,New York,2021-02-05,5.1,1.5,,,
-Pretty Guardian Sailor Moon Eternal the Movie Part 2,2021-02-11,8.131,156.0,San Francisco,2021-02-11,12.3,11.9,,,
-Pretty Guardian Sailor Moon Eternal the Movie Part 2,2021-02-11,8.131,156.0,New York,2021-02-11,-0.8,4.6,,,
-Silk Road,2021-02-19,6.3,207.0,San Francisco,2021-02-19,13.4,0.8,,,
-Silk Road,2021-02-19,6.3,207.0,New York,2021-02-19,0.2,7.3,,,
-Billie Eilish: The World's a Little Blurry,2021-02-26,8.326,299.0,San Francisco,2021-02-26,12.2,0.0,,,
-Billie Eilish: The World's a Little Blurry,2021-02-26,8.326,299.0,New York,2021-02-26,4.5,0.0,,,
-Secret Magic Control Agency,2021-03-18,7.047,358.0,San Francisco,2021-03-18,13.2,9.9,,,
-Secret Magic Control Agency,2021-03-18,7.047,358.0,New York,2021-03-18,6.8,11.2,,,
-Zack Snyder's Justice League,2021-03-18,8.1,9974.0,San Francisco,2021-03-18,13.2,9.9,,,
-Zack Snyder's Justice League,2021-03-18,8.1,9974.0,New York,2021-03-18,6.8,11.2,,,
-Caught by a Wave,2021-03-25,6.6,247.0,San Francisco,2021-03-25,12.0,0.0,,,
-Caught by a Wave,2021-03-25,6.6,247.0,New York,2021-03-25,12.4,1.1,,,
-Shiva Baby,2021-03-26,7.198,609.0,San Francisco,2021-03-26,12.4,0.0,,,
-Shiva Baby,2021-03-26,7.198,609.0,New York,2021-03-26,16.8,1.7,,,
+The Last Paradiso,2021-02-05,5.9,111.0,San Francisco,2021-02-05,11.4,0.0,Rosa Parks Day,2024-02-04,1.0
+The Last Paradiso,2021-02-05,5.9,111.0,New York,2021-02-05,5.1,1.5,Rosa Parks Day,2024-02-04,1.0
+The Last Paradiso,2021-02-05,5.9,111.0,San Francisco,2021-02-05,11.4,0.0,Ronald Reagan Day,2024-02-06,1.0
+The Last Paradiso,2021-02-05,5.9,111.0,New York,2021-02-05,5.1,1.5,Ronald Reagan Day,2024-02-06,1.0
+Pretty Guardian Sailor Moon Eternal the Movie Part 2,2021-02-11,8.131,156.0,San Francisco,2021-02-11,12.3,11.9,Lincoln's Birthday,2024-02-12,1.0
+Pretty Guardian Sailor Moon Eternal the Movie Part 2,2021-02-11,8.131,156.0,New York,2021-02-11,-0.8,4.6,Lincoln's Birthday,2024-02-12,1.0
+Pretty Guardian Sailor Moon Eternal the Movie Part 2,2021-02-11,8.131,156.0,San Francisco,2021-02-11,12.3,11.9,Georgia Day,2024-02-12,1.0
+Pretty Guardian Sailor Moon Eternal the Movie Part 2,2021-02-11,8.131,156.0,New York,2021-02-11,-0.8,4.6,Georgia Day,2024-02-12,1.0
+Pretty Guardian Sailor Moon Eternal the Movie Part 2,2021-02-11,8.131,156.0,San Francisco,2021-02-11,12.3,11.9,Shrove Tuesday/Mardi Gras,2024-02-13,2.0
+Pretty Guardian Sailor Moon Eternal the Movie Part 2,2021-02-11,8.131,156.0,New York,2021-02-11,-0.8,4.6,Shrove Tuesday/Mardi Gras,2024-02-13,2.0
+Silk Road,2021-02-19,6.3,207.0,San Francisco,2021-02-19,13.4,0.8,Presidents' Day,2024-02-19,0.0
+Silk Road,2021-02-19,6.3,207.0,New York,2021-02-19,0.2,7.3,Presidents' Day,2024-02-19,0.0
+Silk Road,2021-02-19,6.3,207.0,San Francisco,2021-02-19,13.4,0.8,Daisy Gatson Bates Day,2024-02-19,0.0
+Silk Road,2021-02-19,6.3,207.0,New York,2021-02-19,0.2,7.3,Daisy Gatson Bates Day,2024-02-19,0.0
+Billie Eilish: The World's a Little Blurry,2021-02-26,8.326,299.0,San Francisco,2021-02-26,12.2,0.0,African-American Scientist and Inventor Day,2024-02-25,1.0
+Billie Eilish: The World's a Little Blurry,2021-02-26,8.326,299.0,New York,2021-02-26,4.5,0.0,African-American Scientist and Inventor Day,2024-02-25,1.0
+Billie Eilish: The World's a Little Blurry,2021-02-26,8.326,299.0,San Francisco,2021-02-26,12.2,0.0,George Rogers Clark Day,2024-02-25,1.0
+Billie Eilish: The World's a Little Blurry,2021-02-26,8.326,299.0,New York,2021-02-26,4.5,0.0,George Rogers Clark Day,2024-02-25,1.0
+Billie Eilish: The World's a Little Blurry,2021-02-26,8.326,299.0,San Francisco,2021-02-26,12.2,0.0,Linus Pauling Day,2024-02-28,2.0
+Billie Eilish: The World's a Little Blurry,2021-02-26,8.326,299.0,New York,2021-02-26,4.5,0.0,Linus Pauling Day,2024-02-28,2.0
+Secret Magic Control Agency,2021-03-18,7.047,358.0,San Francisco,2021-03-18,13.2,9.9,Evacuation Day,2024-03-17,1.0
+Secret Magic Control Agency,2021-03-18,7.047,358.0,New York,2021-03-18,6.8,11.2,Evacuation Day,2024-03-17,1.0
+Secret Magic Control Agency,2021-03-18,7.047,358.0,San Francisco,2021-03-18,13.2,9.9,Evacuation Day observed,2024-03-18,0.0
+Secret Magic Control Agency,2021-03-18,7.047,358.0,New York,2021-03-18,6.8,11.2,Evacuation Day observed,2024-03-18,0.0
+Zack Snyder's Justice League,2021-03-18,8.1,9974.0,San Francisco,2021-03-18,13.2,9.9,Evacuation Day,2024-03-17,1.0
+Zack Snyder's Justice League,2021-03-18,8.1,9974.0,New York,2021-03-18,6.8,11.2,Evacuation Day,2024-03-17,1.0
+Zack Snyder's Justice League,2021-03-18,8.1,9974.0,San Francisco,2021-03-18,13.2,9.9,Evacuation Day observed,2024-03-18,0.0
+Zack Snyder's Justice League,2021-03-18,8.1,9974.0,New York,2021-03-18,6.8,11.2,Evacuation Day observed,2024-03-18,0.0
+Caught by a Wave,2021-03-25,6.6,247.0,San Francisco,2021-03-25,12.0,0.0,Maryland Day,2024-03-25,0.0
+Caught by a Wave,2021-03-25,6.6,247.0,New York,2021-03-25,12.4,1.1,Maryland Day,2024-03-25,0.0
+Caught by a Wave,2021-03-25,6.6,247.0,San Francisco,2021-03-25,12.0,0.0,Seward's Day,2024-03-25,0.0
+Caught by a Wave,2021-03-25,6.6,247.0,New York,2021-03-25,12.4,1.1,Seward's Day,2024-03-25,0.0
+Caught by a Wave,2021-03-25,6.6,247.0,San Francisco,2021-03-25,12.0,0.0,Prince Jonah Kuhio Kalanianaole Day,2024-03-26,1.0
+Caught by a Wave,2021-03-25,6.6,247.0,New York,2021-03-25,12.4,1.1,Prince Jonah Kuhio Kalanianaole Day,2024-03-26,1.0
+Shiva Baby,2021-03-26,7.198,609.0,San Francisco,2021-03-26,12.4,0.0,Maryland Day,2024-03-25,1.0
+Shiva Baby,2021-03-26,7.198,609.0,New York,2021-03-26,16.8,1.7,Maryland Day,2024-03-25,1.0
+Shiva Baby,2021-03-26,7.198,609.0,San Francisco,2021-03-26,12.4,0.0,Seward's Day,2024-03-25,1.0
+Shiva Baby,2021-03-26,7.198,609.0,New York,2021-03-26,16.8,1.7,Seward's Day,2024-03-25,1.0
+Shiva Baby,2021-03-26,7.198,609.0,San Francisco,2021-03-26,12.4,0.0,Prince Jonah Kuhio Kalanianaole Day,2024-03-26,0.0
+Shiva Baby,2021-03-26,7.198,609.0,New York,2021-03-26,16.8,1.7,Prince Jonah Kuhio Kalanianaole Day,2024-03-26,0.0
 The Swarm,2021-04-09,5.764,462.0,San Francisco,2021-04-09,11.5,0.0,,,
 The Swarm,2021-04-09,5.764,462.0,New York,2021-04-09,10.5,0.0,,,
-Chernobyl: Abyss,2021-04-15,6.267,511.0,San Francisco,2021-04-15,12.5,0.0,,,
-Chernobyl: Abyss,2021-04-15,6.267,511.0,New York,2021-04-15,11.5,8.9,,,
-Rogue Hostage,2021-06-11,5.645,190.0,San Francisco,2021-06-11,16.2,0.0,,,
-Rogue Hostage,2021-06-11,5.645,190.0,New York,2021-06-11,19.1,0.4,,,
-Hitman's Wife's Bodyguard,2021-06-14,6.7,2264.0,San Francisco,2021-06-14,18.7,0.0,,,
-Hitman's Wife's Bodyguard,2021-06-14,6.7,2264.0,New York,2021-06-14,20.2,9.5,,,
-Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,,,
-Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,,,
-12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,,,
-12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,,,
+Chernobyl: Abyss,2021-04-15,6.267,511.0,San Francisco,2021-04-15,12.5,0.0,Father Damien Day,2024-04-15,0.0
+Chernobyl: Abyss,2021-04-15,6.267,511.0,New York,2021-04-15,11.5,8.9,Father Damien Day,2024-04-15,0.0
+Chernobyl: Abyss,2021-04-15,6.267,511.0,San Francisco,2021-04-15,12.5,0.0,Patriots' Day,2024-04-15,0.0
+Chernobyl: Abyss,2021-04-15,6.267,511.0,New York,2021-04-15,11.5,8.9,Patriots' Day,2024-04-15,0.0
+Chernobyl: Abyss,2021-04-15,6.267,511.0,San Francisco,2021-04-15,12.5,0.0,Emancipation Day,2024-04-16,1.0
+Chernobyl: Abyss,2021-04-15,6.267,511.0,New York,2021-04-15,11.5,8.9,Emancipation Day,2024-04-16,1.0
+Rogue Hostage,2021-06-11,5.645,190.0,San Francisco,2021-06-11,16.2,0.0,Kamehameha Day,2024-06-11,0.0
+Rogue Hostage,2021-06-11,5.645,190.0,New York,2021-06-11,19.1,0.4,Kamehameha Day,2024-06-11,0.0
+Hitman's Wife's Bodyguard,2021-06-14,6.7,2264.0,San Francisco,2021-06-14,18.7,0.0,Juneteenth,2024-06-14,0.0
+Hitman's Wife's Bodyguard,2021-06-14,6.7,2264.0,New York,2021-06-14,20.2,9.5,Juneteenth,2024-06-14,0.0
+Hitman's Wife's Bodyguard,2021-06-14,6.7,2264.0,San Francisco,2021-06-14,18.7,0.0,Juneteenth Day,2024-06-15,1.0
+Hitman's Wife's Bodyguard,2021-06-14,6.7,2264.0,New York,2021-06-14,20.2,9.5,Juneteenth Day,2024-06-15,1.0
+Hitman's Wife's Bodyguard,2021-06-14,6.7,2264.0,San Francisco,2021-06-14,18.7,0.0,Juneteenth National Freedom Day,2024-06-15,1.0
+Hitman's Wife's Bodyguard,2021-06-14,6.7,2264.0,New York,2021-06-14,20.2,9.5,Juneteenth National Freedom Day,2024-06-15,1.0
+Hitman's Wife's Bodyguard,2021-06-14,6.7,2264.0,San Francisco,2021-06-14,18.7,0.0,Juneteenth,2024-06-15,1.0
+Hitman's Wife's Bodyguard,2021-06-14,6.7,2264.0,New York,2021-06-14,20.2,9.5,Juneteenth,2024-06-15,1.0
+Hitman's Wife's Bodyguard,2021-06-14,6.7,2264.0,San Francisco,2021-06-14,18.7,0.0,Father's Day,2024-06-16,2.0
+Hitman's Wife's Bodyguard,2021-06-14,6.7,2264.0,New York,2021-06-14,20.2,9.5,Father's Day,2024-06-16,2.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Juneteenth Day,2024-06-15,2.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Juneteenth Day,2024-06-15,2.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Juneteenth National Freedom Day,2024-06-15,2.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Juneteenth National Freedom Day,2024-06-15,2.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Juneteenth,2024-06-15,2.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Juneteenth,2024-06-15,2.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Father's Day,2024-06-16,1.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Father's Day,2024-06-16,1.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Bunker Hill Day,2024-06-17,0.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Bunker Hill Day,2024-06-17,0.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Juneteenth Freedom Day (substitute),2024-06-17,0.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Juneteenth Freedom Day (substitute),2024-06-17,0.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Juneteenth,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Juneteenth,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Juneteenth National Freedom Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Juneteenth National Freedom Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Juneteenth Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Juneteenth Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Juneteenth Independence Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Juneteenth Independence Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,National Juneteenth Freedom Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,National Juneteenth Freedom Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Juneteenth National Independence Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Juneteenth National Independence Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Juneteenth Freedom Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Juneteenth Freedom Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Emancipation Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Emancipation Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,San Francisco,2021-06-17,21.7,0.0,Juneteenth Celebration of Freedom Day,2024-06-19,2.0
+Impossible Things,2021-06-17,8.44,389.0,New York,2021-06-17,21.8,0.0,Juneteenth Celebration of Freedom Day,2024-06-19,2.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,Father's Day,2024-06-16,2.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,Father's Day,2024-06-16,2.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,Bunker Hill Day,2024-06-17,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,Bunker Hill Day,2024-06-17,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,Juneteenth Freedom Day (substitute),2024-06-17,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,Juneteenth Freedom Day (substitute),2024-06-17,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,Juneteenth,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,Juneteenth,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,Juneteenth National Freedom Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,Juneteenth National Freedom Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,Juneteenth Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,Juneteenth Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,Juneteenth Independence Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,Juneteenth Independence Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,National Juneteenth Freedom Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,National Juneteenth Freedom Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,Juneteenth National Independence Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,Juneteenth National Independence Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,Juneteenth Freedom Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,Juneteenth Freedom Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,Emancipation Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,Emancipation Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,Juneteenth Celebration of Freedom Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,Juneteenth Celebration of Freedom Day,2024-06-19,1.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,San Francisco,2021-06-18,20.1,0.0,West Virginia Day,2024-06-20,2.0
+12 Mighty Orphans,2021-06-18,7.16,216.0,New York,2021-06-18,23.1,0.0,West Virginia Day,2024-06-20,2.0
 Escape Room: Tournament of Champions,2021-07-01,6.546,2008.0,San Francisco,2021-07-01,17.5,0.0,,,
 Escape Room: Tournament of Champions,2021-07-01,6.546,2008.0,New York,2021-07-01,24.6,27.8,,,
 "The Good, the Bart, and the Loki",2021-07-07,7.3,662.0,San Francisco,2021-07-07,15.1,0.0,,,
 "The Good, the Bart, and the Loki",2021-07-07,7.3,662.0,New York,2021-07-07,27.8,1.3,,,
-The Stronghold,2021-08-18,7.4,1280.0,San Francisco,2021-08-18,17.8,0.0,,,
-The Stronghold,2021-08-18,7.4,1280.0,New York,2021-08-18,25.4,1.1,,,
-Shang-Chi and the Legend of the Ten Rings,2021-09-01,7.544,9401.0,San Francisco,2021-09-01,17.1,0.0,,,
-Shang-Chi and the Legend of the Ten Rings,2021-09-01,7.544,9401.0,New York,2021-09-01,22.8,59.6,,,
-The Tomorrow War,2021-09-03,7.53,3453.0,San Francisco,2021-09-03,16.3,0.0,,,
-The Tomorrow War,2021-09-03,7.53,3453.0,New York,2021-09-03,21.1,0.2,,,
-Venom: Let There Be Carnage,2021-09-30,6.799,10250.0,San Francisco,2021-09-30,18.6,0.0,,,
-Venom: Let There Be Carnage,2021-09-30,6.799,10250.0,New York,2021-09-30,17.9,0.0,,,
-Outlaws,2021-10-08,6.9,202.0,San Francisco,2021-10-08,15.5,0.0,,,
-Outlaws,2021-10-08,6.9,202.0,New York,2021-10-08,21.1,0.2,,,
+The Stronghold,2021-08-18,7.4,1280.0,San Francisco,2021-08-18,17.8,0.0,Hawaii Statehood Day,2024-08-16,2.0
+The Stronghold,2021-08-18,7.4,1280.0,New York,2021-08-18,25.4,1.1,Hawaii Statehood Day,2024-08-16,2.0
+The Stronghold,2021-08-18,7.4,1280.0,San Francisco,2021-08-18,17.8,0.0,Bennington Battle Day,2024-08-16,2.0
+The Stronghold,2021-08-18,7.4,1280.0,New York,2021-08-18,25.4,1.1,Bennington Battle Day,2024-08-16,2.0
+The Stronghold,2021-08-18,7.4,1280.0,San Francisco,2021-08-18,17.8,0.0,National Navajo Code Talkers Day,2024-08-18,0.0
+The Stronghold,2021-08-18,7.4,1280.0,New York,2021-08-18,25.4,1.1,National Navajo Code Talkers Day,2024-08-18,0.0
+Shang-Chi and the Legend of the Ten Rings,2021-09-01,7.544,9401.0,San Francisco,2021-09-01,17.1,0.0,Labor Day,2024-09-02,1.0
+Shang-Chi and the Legend of the Ten Rings,2021-09-01,7.544,9401.0,New York,2021-09-01,22.8,59.6,Labor Day,2024-09-02,1.0
+The Tomorrow War,2021-09-03,7.53,3453.0,San Francisco,2021-09-03,16.3,0.0,Labor Day,2024-09-02,1.0
+The Tomorrow War,2021-09-03,7.53,3453.0,New York,2021-09-03,21.1,0.2,Labor Day,2024-09-02,1.0
+Venom: Let There Be Carnage,2021-09-30,6.799,10250.0,San Francisco,2021-09-30,18.6,0.0,Public Lands Day,2024-09-28,2.0
+Venom: Let There Be Carnage,2021-09-30,6.799,10250.0,New York,2021-09-30,17.9,0.0,Public Lands Day,2024-09-28,2.0
+Outlaws,2021-10-08,6.9,202.0,San Francisco,2021-10-08,15.5,0.0,Frances Xavier Cabrini Day,2024-10-07,1.0
+Outlaws,2021-10-08,6.9,202.0,New York,2021-10-08,21.1,0.2,Frances Xavier Cabrini Day,2024-10-07,1.0
+Outlaws,2021-10-08,6.9,202.0,San Francisco,2021-10-08,15.5,0.0,Leif Erikson Day,2024-10-09,1.0
+Outlaws,2021-10-08,6.9,202.0,New York,2021-10-08,21.1,0.2,Leif Erikson Day,2024-10-09,1.0
 Firebird,2021-10-29,7.298,176.0,San Francisco,2021-10-29,16.6,0.0,,,
 Firebird,2021-10-29,7.298,176.0,New York,2021-10-29,12.9,4.1,,,
-Eternals,2021-11-03,6.8,8263.0,San Francisco,2021-11-03,15.4,0.0,,,
-Eternals,2021-11-03,6.8,8263.0,New York,2021-11-03,9.8,0.0,,,
-I Am Santa Claus,2021-11-03,6.5,144.0,San Francisco,2021-11-03,15.4,0.0,,,
-I Am Santa Claus,2021-11-03,6.5,144.0,New York,2021-11-03,9.8,0.0,,,
-"tick, tick... BOOM!",2021-11-11,7.645,2045.0,San Francisco,2021-11-11,15.1,0.0,,,
-"tick, tick... BOOM!",2021-11-11,7.645,2045.0,New York,2021-11-11,13.6,0.1,,,
-Demon Slayer: Kimetsu no Yaiba Mt. Natagumo Arc,2021-11-17,7.8,205.0,San Francisco,2021-11-17,14.2,0.0,,,
-Demon Slayer: Kimetsu no Yaiba Mt. Natagumo Arc,2021-11-17,7.8,205.0,New York,2021-11-17,8.1,0.0,,,
+Eternals,2021-11-03,6.8,8263.0,San Francisco,2021-11-03,15.4,0.0,Election Day,2024-11-05,2.0
+Eternals,2021-11-03,6.8,8263.0,New York,2021-11-03,9.8,0.0,Election Day,2024-11-05,2.0
+Eternals,2021-11-03,6.8,8263.0,San Francisco,2021-11-03,15.4,0.0,Susan B. Anthony Day,2024-11-05,2.0
+Eternals,2021-11-03,6.8,8263.0,New York,2021-11-03,9.8,0.0,Susan B. Anthony Day,2024-11-05,2.0
+I Am Santa Claus,2021-11-03,6.5,144.0,San Francisco,2021-11-03,15.4,0.0,Election Day,2024-11-05,2.0
+I Am Santa Claus,2021-11-03,6.5,144.0,New York,2021-11-03,9.8,0.0,Election Day,2024-11-05,2.0
+I Am Santa Claus,2021-11-03,6.5,144.0,San Francisco,2021-11-03,15.4,0.0,Susan B. Anthony Day,2024-11-05,2.0
+I Am Santa Claus,2021-11-03,6.5,144.0,New York,2021-11-03,9.8,0.0,Susan B. Anthony Day,2024-11-05,2.0
+"tick, tick... BOOM!",2021-11-11,7.645,2045.0,San Francisco,2021-11-11,15.1,0.0,Barack Obama Day,2024-11-11,0.0
+"tick, tick... BOOM!",2021-11-11,7.645,2045.0,New York,2021-11-11,13.6,0.1,Barack Obama Day,2024-11-11,0.0
+"tick, tick... BOOM!",2021-11-11,7.645,2045.0,San Francisco,2021-11-11,15.1,0.0,Veterans Day,2024-11-11,0.0
+"tick, tick... BOOM!",2021-11-11,7.645,2045.0,New York,2021-11-11,13.6,0.1,Veterans Day,2024-11-11,0.0
+"tick, tick... BOOM!",2021-11-11,7.645,2045.0,San Francisco,2021-11-11,15.1,0.0,Veterans' Day/Armistice Day,2024-11-11,0.0
+"tick, tick... BOOM!",2021-11-11,7.645,2045.0,New York,2021-11-11,13.6,0.1,Veterans' Day/Armistice Day,2024-11-11,0.0
+Demon Slayer: Kimetsu no Yaiba Mt. Natagumo Arc,2021-11-17,7.8,205.0,San Francisco,2021-11-17,14.2,0.0,George Rogers Clark Day,2024-11-19,2.0
+Demon Slayer: Kimetsu no Yaiba Mt. Natagumo Arc,2021-11-17,7.8,205.0,New York,2021-11-17,8.1,0.0,George Rogers Clark Day,2024-11-19,2.0
 The Hand of God,2021-11-24,7.557,1636.0,San Francisco,2021-11-24,11.7,0.0,,,
 The Hand of God,2021-11-24,7.557,1636.0,New York,2021-11-24,2.5,0.0,,,
-Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,San Francisco,2021-12-01,14.1,0.0,,,
-Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,New York,2021-12-01,4.8,0.0,,,
-Sing 2,2021-12-01,7.863,4379.0,San Francisco,2021-12-01,14.1,0.0,,,
-Sing 2,2021-12-01,7.863,4379.0,New York,2021-12-01,4.8,0.0,,,
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,San Francisco,2021-12-01,14.1,0.0,Nellie Tayloe Ross's Birthday,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,New York,2021-12-01,4.8,0.0,Nellie Tayloe Ross's Birthday,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,San Francisco,2021-12-01,14.1,0.0,State Holiday,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,New York,2021-12-01,4.8,0.0,State Holiday,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,San Francisco,2021-12-01,14.1,0.0,Presidents' Day,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,New York,2021-12-01,4.8,0.0,Presidents' Day,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,San Francisco,2021-12-01,14.1,0.0,Lincoln's Birthday/Lincoln's Day,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,New York,2021-12-01,4.8,0.0,Lincoln's Birthday/Lincoln's Day,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,San Francisco,2021-12-01,14.1,0.0,Day After Thanksgiving,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,New York,2021-12-01,4.8,0.0,Day After Thanksgiving,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,San Francisco,2021-12-01,14.1,0.0,Family Day,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,New York,2021-12-01,4.8,0.0,Family Day,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,San Francisco,2021-12-01,14.1,0.0,Acadian Day,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,New York,2021-12-01,4.8,0.0,Acadian Day,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,San Francisco,2021-12-01,14.1,0.0,American Indian Heritage Day,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,New York,2021-12-01,4.8,0.0,American Indian Heritage Day,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,San Francisco,2021-12-01,14.1,0.0,Native American Heritage Day,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,New York,2021-12-01,4.8,0.0,Native American Heritage Day,2024-11-29,2.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,San Francisco,2021-12-01,14.1,0.0,Rosa Parks Day,2024-12-01,0.0
+Demon Slayer: Kimetsu no Yaiba – The Hashira Meeting Arc,2021-12-01,6.9,235.0,New York,2021-12-01,4.8,0.0,Rosa Parks Day,2024-12-01,0.0
+Sing 2,2021-12-01,7.863,4379.0,San Francisco,2021-12-01,14.1,0.0,Nellie Tayloe Ross's Birthday,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,New York,2021-12-01,4.8,0.0,Nellie Tayloe Ross's Birthday,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,San Francisco,2021-12-01,14.1,0.0,State Holiday,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,New York,2021-12-01,4.8,0.0,State Holiday,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,San Francisco,2021-12-01,14.1,0.0,Presidents' Day,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,New York,2021-12-01,4.8,0.0,Presidents' Day,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,San Francisco,2021-12-01,14.1,0.0,Lincoln's Birthday/Lincoln's Day,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,New York,2021-12-01,4.8,0.0,Lincoln's Birthday/Lincoln's Day,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,San Francisco,2021-12-01,14.1,0.0,Day After Thanksgiving,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,New York,2021-12-01,4.8,0.0,Day After Thanksgiving,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,San Francisco,2021-12-01,14.1,0.0,Family Day,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,New York,2021-12-01,4.8,0.0,Family Day,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,San Francisco,2021-12-01,14.1,0.0,Acadian Day,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,New York,2021-12-01,4.8,0.0,Acadian Day,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,San Francisco,2021-12-01,14.1,0.0,American Indian Heritage Day,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,New York,2021-12-01,4.8,0.0,American Indian Heritage Day,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,San Francisco,2021-12-01,14.1,0.0,Native American Heritage Day,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,New York,2021-12-01,4.8,0.0,Native American Heritage Day,2024-11-29,2.0
+Sing 2,2021-12-01,7.863,4379.0,San Francisco,2021-12-01,14.1,0.0,Rosa Parks Day,2024-12-01,0.0
+Sing 2,2021-12-01,7.863,4379.0,New York,2021-12-01,4.8,0.0,Rosa Parks Day,2024-12-01,0.0
 Spider-Man: No Way Home,2021-12-15,7.955,20158.0,San Francisco,2021-12-15,9.2,5.8,,,
 Spider-Man: No Way Home,2021-12-15,7.955,20158.0,New York,2021-12-15,7.2,0.4,,,
-American Underdog,2021-12-25,7.111,341.0,San Francisco,2021-12-25,9.8,25.9,,,
-American Underdog,2021-12-25,7.111,341.0,New York,2021-12-25,7.0,10.8,,,
-Monster's Battlefield,2021-12-27,6.802,189.0,San Francisco,2021-12-27,8.9,2.3,,,
-Monster's Battlefield,2021-12-27,6.802,189.0,New York,2021-12-27,1.4,5.3,,,
+American Underdog,2021-12-25,7.111,341.0,San Francisco,2021-12-25,9.8,25.9,Christmas Eve,2024-12-24,1.0
+American Underdog,2021-12-25,7.111,341.0,New York,2021-12-25,7.0,10.8,Christmas Eve,2024-12-24,1.0
+American Underdog,2021-12-25,7.111,341.0,San Francisco,2021-12-25,9.8,25.9,Christmas Day,2024-12-25,0.0
+American Underdog,2021-12-25,7.111,341.0,New York,2021-12-25,7.0,10.8,Christmas Day,2024-12-25,0.0
+American Underdog,2021-12-25,7.111,341.0,San Francisco,2021-12-25,9.8,25.9,Day After Christmas Day,2024-12-26,1.0
+American Underdog,2021-12-25,7.111,341.0,New York,2021-12-25,7.0,10.8,Day After Christmas Day,2024-12-26,1.0
+Monster's Battlefield,2021-12-27,6.802,189.0,San Francisco,2021-12-27,8.9,2.3,Christmas Day,2024-12-25,2.0
+Monster's Battlefield,2021-12-27,6.802,189.0,New York,2021-12-27,1.4,5.3,Christmas Day,2024-12-25,2.0
+Monster's Battlefield,2021-12-27,6.802,189.0,San Francisco,2021-12-27,8.9,2.3,Day After Christmas Day,2024-12-26,1.0
+Monster's Battlefield,2021-12-27,6.802,189.0,New York,2021-12-27,1.4,5.3,Day After Christmas Day,2024-12-26,1.0
 Between Two Worlds,2022-01-12,6.98,149.0,San Francisco,2022-01-12,10.9,0.0,,,
 Between Two Worlds,2022-01-12,6.98,149.0,New York,2022-01-12,-1.2,0.0,,,
 Scream,2022-01-12,6.67,3297.0,San Francisco,2022-01-12,10.9,0.0,,,
@@ -83,177 +237,371 @@ Clean,2022-01-28,6.3,371.0,San Francisco,2022-01-28,10.4,0.0,,,
 Clean,2022-01-28,6.3,371.0,New York,2022-01-28,-1.2,2.0,,,
 Death on the Nile,2022-02-09,6.4,3658.0,San Francisco,2022-02-09,14.0,0.0,,,
 Death on the Nile,2022-02-09,6.4,3658.0,New York,2022-02-09,3.1,0.0,,,
-Wyrmwood: Apocalypse,2022-02-10,5.707,111.0,San Francisco,2022-02-10,16.0,0.0,,,
-Wyrmwood: Apocalypse,2022-02-10,5.707,111.0,New York,2022-02-10,7.4,0.1,,,
+Wyrmwood: Apocalypse,2022-02-10,5.707,111.0,San Francisco,2022-02-10,16.0,0.0,Lincoln's Birthday,2024-02-12,2.0
+Wyrmwood: Apocalypse,2022-02-10,5.707,111.0,New York,2022-02-10,7.4,0.1,Lincoln's Birthday,2024-02-12,2.0
+Wyrmwood: Apocalypse,2022-02-10,5.707,111.0,San Francisco,2022-02-10,16.0,0.0,Georgia Day,2024-02-12,2.0
+Wyrmwood: Apocalypse,2022-02-10,5.707,111.0,New York,2022-02-10,7.4,0.1,Georgia Day,2024-02-12,2.0
 Goliath,2022-03-09,6.846,357.0,San Francisco,2022-03-09,11.7,0.0,,,
 Goliath,2022-03-09,6.846,357.0,New York,2022-03-09,3.5,11.4,,,
-Morbius,2022-03-30,6.0,4305.0,San Francisco,2022-03-30,11.9,0.0,,,
-Morbius,2022-03-30,6.0,4305.0,New York,2022-03-30,1.7,0.0,,,
-Patriots Time,2022-04-28,7.8,120.0,San Francisco,2022-04-28,12.9,0.0,,,
-Patriots Time,2022-04-28,7.8,120.0,New York,2022-04-28,9.7,0.2,,,
-Sniper: The White Raven,2022-05-03,7.671,747.0,San Francisco,2022-05-03,15.4,0.0,,,
-Sniper: The White Raven,2022-05-03,7.671,747.0,New York,2022-05-03,13.3,0.0,,,
-Doctor Strange in the Multiverse of Madness,2022-05-04,7.283,9158.0,San Francisco,2022-05-04,14.3,0.0,,,
-Doctor Strange in the Multiverse of Madness,2022-05-04,7.283,9158.0,New York,2022-05-04,13.1,3.1,,,
-Firestarter,2022-05-12,5.6,693.0,San Francisco,2022-05-12,12.8,0.0,,,
-Firestarter,2022-05-12,5.6,693.0,New York,2022-05-12,17.0,0.0,,,
-Top Gun: Maverick,2022-05-21,8.2,9230.0,San Francisco,2022-05-21,15.2,0.0,,,
-Top Gun: Maverick,2022-05-21,8.2,9230.0,New York,2022-05-21,23.4,0.0,,,
+Morbius,2022-03-30,6.0,4305.0,San Francisco,2022-03-30,11.9,0.0,Good Friday,2024-03-29,1.0
+Morbius,2022-03-30,6.0,4305.0,New York,2022-03-30,1.7,0.0,Good Friday,2024-03-29,1.0
+Morbius,2022-03-30,6.0,4305.0,San Francisco,2022-03-30,11.9,0.0,State Holiday,2024-03-29,1.0
+Morbius,2022-03-30,6.0,4305.0,New York,2022-03-30,1.7,0.0,State Holiday,2024-03-29,1.0
+Morbius,2022-03-30,6.0,4305.0,San Francisco,2022-03-30,11.9,0.0,Wyoming Veterans Welcome Home Day,2024-03-30,0.0
+Morbius,2022-03-30,6.0,4305.0,New York,2022-03-30,1.7,0.0,Wyoming Veterans Welcome Home Day,2024-03-30,0.0
+Morbius,2022-03-30,6.0,4305.0,San Francisco,2022-03-30,11.9,0.0,Vietnam Veterans Day,2024-03-30,0.0
+Morbius,2022-03-30,6.0,4305.0,New York,2022-03-30,1.7,0.0,Vietnam Veterans Day,2024-03-30,0.0
+Morbius,2022-03-30,6.0,4305.0,San Francisco,2022-03-30,11.9,0.0,Vietnam Veteran Recognition Day,2024-03-30,0.0
+Morbius,2022-03-30,6.0,4305.0,New York,2022-03-30,1.7,0.0,Vietnam Veteran Recognition Day,2024-03-30,0.0
+Morbius,2022-03-30,6.0,4305.0,San Francisco,2022-03-30,11.9,0.0,César Chávez Day,2024-03-31,1.0
+Morbius,2022-03-30,6.0,4305.0,New York,2022-03-30,1.7,0.0,César Chávez Day,2024-03-31,1.0
+Morbius,2022-03-30,6.0,4305.0,San Francisco,2022-03-30,11.9,0.0,César Chávez Day (substitute),2024-04-01,2.0
+Morbius,2022-03-30,6.0,4305.0,New York,2022-03-30,1.7,0.0,César Chávez Day (substitute),2024-04-01,2.0
+Patriots Time,2022-04-28,7.8,120.0,San Francisco,2022-04-28,12.9,0.0,Arbor Day,2024-04-26,2.0
+Patriots Time,2022-04-28,7.8,120.0,New York,2022-04-28,9.7,0.2,Arbor Day,2024-04-26,2.0
+Patriots Time,2022-04-28,7.8,120.0,San Francisco,2022-04-28,12.9,0.0,Confederate Memorial Day,2024-04-26,2.0
+Patriots Time,2022-04-28,7.8,120.0,New York,2022-04-28,9.7,0.2,Confederate Memorial Day,2024-04-26,2.0
+Patriots Time,2022-04-28,7.8,120.0,San Francisco,2022-04-28,12.9,0.0,State Holiday,2024-04-26,2.0
+Patriots Time,2022-04-28,7.8,120.0,New York,2022-04-28,9.7,0.2,State Holiday,2024-04-26,2.0
+Patriots Time,2022-04-28,7.8,120.0,San Francisco,2022-04-28,12.9,0.0,Arbor Day,2024-04-29,1.0
+Patriots Time,2022-04-28,7.8,120.0,New York,2022-04-28,9.7,0.2,Arbor Day,2024-04-29,1.0
+Patriots Time,2022-04-28,7.8,120.0,San Francisco,2022-04-28,12.9,0.0,Confederate Memorial Day,2024-04-29,1.0
+Patriots Time,2022-04-28,7.8,120.0,New York,2022-04-28,9.7,0.2,Confederate Memorial Day,2024-04-29,1.0
+Sniper: The White Raven,2022-05-03,7.671,747.0,San Francisco,2022-05-03,15.4,0.0,Lei Day,2024-05-01,2.0
+Sniper: The White Raven,2022-05-03,7.671,747.0,New York,2022-05-03,13.3,0.0,Lei Day,2024-05-01,2.0
+Sniper: The White Raven,2022-05-03,7.671,747.0,San Francisco,2022-05-03,15.4,0.0,West Virginia Day of Prayer,2024-05-02,1.0
+Sniper: The White Raven,2022-05-03,7.671,747.0,New York,2022-05-03,13.3,0.0,West Virginia Day of Prayer,2024-05-02,1.0
+Sniper: The White Raven,2022-05-03,7.671,747.0,San Francisco,2022-05-03,15.4,0.0,Kent State Shootings Remembrance,2024-05-04,1.0
+Sniper: The White Raven,2022-05-03,7.671,747.0,New York,2022-05-03,13.3,0.0,Kent State Shootings Remembrance,2024-05-04,1.0
+Sniper: The White Raven,2022-05-03,7.671,747.0,San Francisco,2022-05-03,15.4,0.0,Rhode Island Independence Day,2024-05-04,1.0
+Sniper: The White Raven,2022-05-03,7.671,747.0,New York,2022-05-03,13.3,0.0,Rhode Island Independence Day,2024-05-04,1.0
+Doctor Strange in the Multiverse of Madness,2022-05-04,7.283,9158.0,San Francisco,2022-05-04,14.3,0.0,West Virginia Day of Prayer,2024-05-02,2.0
+Doctor Strange in the Multiverse of Madness,2022-05-04,7.283,9158.0,New York,2022-05-04,13.1,3.1,West Virginia Day of Prayer,2024-05-02,2.0
+Doctor Strange in the Multiverse of Madness,2022-05-04,7.283,9158.0,San Francisco,2022-05-04,14.3,0.0,Kent State Shootings Remembrance,2024-05-04,0.0
+Doctor Strange in the Multiverse of Madness,2022-05-04,7.283,9158.0,New York,2022-05-04,13.1,3.1,Kent State Shootings Remembrance,2024-05-04,0.0
+Doctor Strange in the Multiverse of Madness,2022-05-04,7.283,9158.0,San Francisco,2022-05-04,14.3,0.0,Rhode Island Independence Day,2024-05-04,0.0
+Doctor Strange in the Multiverse of Madness,2022-05-04,7.283,9158.0,New York,2022-05-04,13.1,3.1,Rhode Island Independence Day,2024-05-04,0.0
+Firestarter,2022-05-12,5.6,693.0,San Francisco,2022-05-12,12.8,0.0,Confederate Memorial Day,2024-05-10,2.0
+Firestarter,2022-05-12,5.6,693.0,New York,2022-05-12,17.0,0.0,Confederate Memorial Day,2024-05-10,2.0
+Firestarter,2022-05-12,5.6,693.0,San Francisco,2022-05-12,12.8,0.0,Native American Day,2024-05-10,2.0
+Firestarter,2022-05-12,5.6,693.0,New York,2022-05-12,17.0,0.0,Native American Day,2024-05-10,2.0
+Firestarter,2022-05-12,5.6,693.0,San Francisco,2022-05-12,12.8,0.0,Military Spouse Appreciation Day,2024-05-10,2.0
+Firestarter,2022-05-12,5.6,693.0,New York,2022-05-12,17.0,0.0,Military Spouse Appreciation Day,2024-05-10,2.0
+Firestarter,2022-05-12,5.6,693.0,San Francisco,2022-05-12,12.8,0.0,Mother's Day,2024-05-12,0.0
+Firestarter,2022-05-12,5.6,693.0,New York,2022-05-12,17.0,0.0,Mother's Day,2024-05-12,0.0
+Firestarter,2022-05-12,5.6,693.0,San Francisco,2022-05-12,12.8,0.0,Primary Election Day,2024-05-14,2.0
+Firestarter,2022-05-12,5.6,693.0,New York,2022-05-12,17.0,0.0,Primary Election Day,2024-05-14,2.0
+Top Gun: Maverick,2022-05-21,8.2,9230.0,San Francisco,2022-05-21,15.2,0.0,Harvey Milk Day,2024-05-22,1.0
+Top Gun: Maverick,2022-05-21,8.2,9230.0,New York,2022-05-21,23.4,0.0,Harvey Milk Day,2024-05-22,1.0
 Code Name Banshee,2022-07-01,5.8,125.0,San Francisco,2022-07-01,14.6,0.0,,,
 Code Name Banshee,2022-07-01,5.8,125.0,New York,2022-07-01,27.3,0.0,,,
-Thor: Love and Thunder,2022-07-06,6.4,7578.0,San Francisco,2022-07-06,18.6,0.0,,,
-Thor: Love and Thunder,2022-07-06,6.4,7578.0,New York,2022-07-06,26.8,0.0,,,
-Holy Spider,2022-07-13,7.3,398.0,San Francisco,2022-07-13,17.7,0.0,,,
-Holy Spider,2022-07-13,7.3,398.0,New York,2022-07-13,27.6,0.0,,,
-The Night of the 12th,2022-07-13,6.943,629.0,San Francisco,2022-07-13,17.7,0.0,,,
-The Night of the 12th,2022-07-13,6.943,629.0,New York,2022-07-13,27.6,0.0,,,
-Paws of Fury: The Legend of Hank,2022-07-14,6.7,294.0,San Francisco,2022-07-14,16.6,0.0,,,
-Paws of Fury: The Legend of Hank,2022-07-14,6.7,294.0,New York,2022-07-14,27.3,0.2,,,
-American Carnage,2022-07-15,5.9,159.0,San Francisco,2022-07-15,15.7,0.0,,,
-American Carnage,2022-07-15,5.9,159.0,New York,2022-07-15,25.8,0.1,,,
-Orphan: First Kill,2022-07-27,6.642,2112.0,San Francisco,2022-07-27,16.4,0.0,,,
-Orphan: First Kill,2022-07-27,6.642,2112.0,New York,2022-07-27,25.9,0.9,,,
-Vengeance,2022-07-29,6.6,367.0,San Francisco,2022-07-29,16.7,0.0,,,
-Vengeance,2022-07-29,6.6,367.0,New York,2022-07-29,26.7,0.0,,,
-Warriors of Future,2022-08-05,7.0,408.0,San Francisco,2022-08-05,19.2,0.0,,,
-Warriors of Future,2022-08-05,7.0,408.0,New York,2022-08-05,27.5,0.0,,,
-Groot Takes a Bath,2022-08-10,7.1,341.0,San Francisco,2022-08-10,20.1,0.0,,,
-Groot Takes a Bath,2022-08-10,7.1,341.0,New York,2022-08-10,27.5,0.1,,,
-Groot's First Steps,2022-08-10,7.0,338.0,San Francisco,2022-08-10,20.1,0.0,,,
-Groot's First Steps,2022-08-10,7.0,338.0,New York,2022-08-10,27.5,0.1,,,
-Groot's Pursuit,2022-08-10,7.1,259.0,San Francisco,2022-08-10,20.1,0.0,,,
-Groot's Pursuit,2022-08-10,7.1,259.0,New York,2022-08-10,27.5,0.1,,,
-Beast,2022-08-11,6.6,1538.0,San Francisco,2022-08-11,19.1,0.0,,,
-Beast,2022-08-11,6.6,1538.0,New York,2022-08-11,26.6,7.5,,,
-Rogue Agent,2022-08-12,6.4,192.0,San Francisco,2022-08-12,18.5,0.0,,,
-Rogue Agent,2022-08-12,6.4,192.0,New York,2022-08-12,25.2,0.0,,,
-Sniper: Rogue Mission,2022-08-16,6.3,141.0,San Francisco,2022-08-16,20.2,0.0,,,
-Sniper: Rogue Mission,2022-08-16,6.3,141.0,New York,2022-08-16,22.9,0.2,,,
-Brahmāstra Part One: Shiva,2022-09-08,6.4,168.0,San Francisco,2022-09-08,23.9,0.0,,,
-Brahmāstra Part One: Shiva,2022-09-08,6.4,168.0,New York,2022-09-08,20.8,0.2,,,
-Demon Slayer: Kimetsu no Yaiba - Tsuzumi Mansion Arc,2022-09-15,7.5,130.0,San Francisco,2022-09-15,17.3,0.0,,,
-Demon Slayer: Kimetsu no Yaiba - Tsuzumi Mansion Arc,2022-09-15,7.5,130.0,New York,2022-09-15,19.1,7.1,,,
-Werewolf by Night,2022-09-25,7.0,1278.0,San Francisco,2022-09-25,16.9,0.0,,,
-Werewolf by Night,2022-09-25,7.0,1278.0,New York,2022-09-25,18.1,2.3,,,
-The Stranger,2022-10-06,6.16,316.0,San Francisco,2022-10-06,15.5,0.0,,,
-The Stranger,2022-10-06,6.16,316.0,New York,2022-10-06,16.2,0.0,,,
-Blackout,2022-10-12,5.158,146.0,San Francisco,2022-10-12,15.2,0.0,,,
-Blackout,2022-10-12,5.158,146.0,New York,2022-10-12,14.6,0.2,,,
-Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,San Francisco,2022-10-14,14.4,0.0,,,
-Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,New York,2022-10-14,14.8,20.1,,,
-The Banshees of Inisherin,2022-10-20,7.454,2740.0,San Francisco,2022-10-20,16.0,0.0,,,
-The Banshees of Inisherin,2022-10-20,7.454,2740.0,New York,2022-10-20,9.9,0.0,,,
+Thor: Love and Thunder,2022-07-06,6.4,7578.0,San Francisco,2022-07-06,18.6,0.0,Independence Day,2024-07-04,2.0
+Thor: Love and Thunder,2022-07-06,6.4,7578.0,New York,2022-07-06,26.8,0.0,Independence Day,2024-07-04,2.0
+Holy Spider,2022-07-13,7.3,398.0,San Francisco,2022-07-13,17.7,0.0,Nathan Bedford Forrest Day,2024-07-13,0.0
+Holy Spider,2022-07-13,7.3,398.0,New York,2022-07-13,27.6,0.0,Nathan Bedford Forrest Day,2024-07-13,0.0
+The Night of the 12th,2022-07-13,6.943,629.0,San Francisco,2022-07-13,17.7,0.0,Nathan Bedford Forrest Day,2024-07-13,0.0
+The Night of the 12th,2022-07-13,6.943,629.0,New York,2022-07-13,27.6,0.0,Nathan Bedford Forrest Day,2024-07-13,0.0
+Paws of Fury: The Legend of Hank,2022-07-14,6.7,294.0,San Francisco,2022-07-14,16.6,0.0,Nathan Bedford Forrest Day,2024-07-13,1.0
+Paws of Fury: The Legend of Hank,2022-07-14,6.7,294.0,New York,2022-07-14,27.3,0.2,Nathan Bedford Forrest Day,2024-07-13,1.0
+American Carnage,2022-07-15,5.9,159.0,San Francisco,2022-07-15,15.7,0.0,Nathan Bedford Forrest Day,2024-07-13,2.0
+American Carnage,2022-07-15,5.9,159.0,New York,2022-07-15,25.8,0.1,Nathan Bedford Forrest Day,2024-07-13,2.0
+Orphan: First Kill,2022-07-27,6.642,2112.0,San Francisco,2022-07-27,16.4,0.0,Korean War Veteran Recognition Day,2024-07-27,0.0
+Orphan: First Kill,2022-07-27,6.642,2112.0,New York,2022-07-27,25.9,0.9,Korean War Veteran Recognition Day,2024-07-27,0.0
+Vengeance,2022-07-29,6.6,367.0,San Francisco,2022-07-29,16.7,0.0,Korean War Veteran Recognition Day,2024-07-27,2.0
+Vengeance,2022-07-29,6.6,367.0,New York,2022-07-29,26.7,0.0,Korean War Veteran Recognition Day,2024-07-27,2.0
+Warriors of Future,2022-08-05,7.0,408.0,San Francisco,2022-08-05,19.2,0.0,American Family Day,2024-08-04,1.0
+Warriors of Future,2022-08-05,7.0,408.0,New York,2022-08-05,27.5,0.0,American Family Day,2024-08-04,1.0
+Warriors of Future,2022-08-05,7.0,408.0,San Francisco,2022-08-05,19.2,0.0,Purple Heart Day,2024-08-07,2.0
+Warriors of Future,2022-08-05,7.0,408.0,New York,2022-08-05,27.5,0.0,Purple Heart Day,2024-08-07,2.0
+Groot Takes a Bath,2022-08-10,7.1,341.0,San Francisco,2022-08-10,20.1,0.0,Victory Day,2024-08-12,2.0
+Groot Takes a Bath,2022-08-10,7.1,341.0,New York,2022-08-10,27.5,0.1,Victory Day,2024-08-12,2.0
+Groot's First Steps,2022-08-10,7.0,338.0,San Francisco,2022-08-10,20.1,0.0,Victory Day,2024-08-12,2.0
+Groot's First Steps,2022-08-10,7.0,338.0,New York,2022-08-10,27.5,0.1,Victory Day,2024-08-12,2.0
+Groot's Pursuit,2022-08-10,7.1,259.0,San Francisco,2022-08-10,20.1,0.0,Victory Day,2024-08-12,2.0
+Groot's Pursuit,2022-08-10,7.1,259.0,New York,2022-08-10,27.5,0.1,Victory Day,2024-08-12,2.0
+Beast,2022-08-11,6.6,1538.0,San Francisco,2022-08-11,19.1,0.0,Victory Day,2024-08-12,1.0
+Beast,2022-08-11,6.6,1538.0,New York,2022-08-11,26.6,7.5,Victory Day,2024-08-12,1.0
+Rogue Agent,2022-08-12,6.4,192.0,San Francisco,2022-08-12,18.5,0.0,Victory Day,2024-08-12,0.0
+Rogue Agent,2022-08-12,6.4,192.0,New York,2022-08-12,25.2,0.0,Victory Day,2024-08-12,0.0
+Sniper: Rogue Mission,2022-08-16,6.3,141.0,San Francisco,2022-08-16,20.2,0.0,Hawaii Statehood Day,2024-08-16,0.0
+Sniper: Rogue Mission,2022-08-16,6.3,141.0,New York,2022-08-16,22.9,0.2,Hawaii Statehood Day,2024-08-16,0.0
+Sniper: Rogue Mission,2022-08-16,6.3,141.0,San Francisco,2022-08-16,20.2,0.0,Bennington Battle Day,2024-08-16,0.0
+Sniper: Rogue Mission,2022-08-16,6.3,141.0,New York,2022-08-16,22.9,0.2,Bennington Battle Day,2024-08-16,0.0
+Sniper: Rogue Mission,2022-08-16,6.3,141.0,San Francisco,2022-08-16,20.2,0.0,National Navajo Code Talkers Day,2024-08-18,2.0
+Sniper: Rogue Mission,2022-08-16,6.3,141.0,New York,2022-08-16,22.9,0.2,National Navajo Code Talkers Day,2024-08-18,2.0
+Brahmāstra Part One: Shiva,2022-09-08,6.4,168.0,San Francisco,2022-09-08,23.9,0.0,Native American Day,2024-09-07,1.0
+Brahmāstra Part One: Shiva,2022-09-08,6.4,168.0,New York,2022-09-08,20.8,0.2,Native American Day,2024-09-07,1.0
+Brahmāstra Part One: Shiva,2022-09-08,6.4,168.0,San Francisco,2022-09-08,23.9,0.0,California Admission Day,2024-09-09,1.0
+Brahmāstra Part One: Shiva,2022-09-08,6.4,168.0,New York,2022-09-08,20.8,0.2,California Admission Day,2024-09-09,1.0
+Demon Slayer: Kimetsu no Yaiba - Tsuzumi Mansion Arc,2022-09-15,7.5,130.0,San Francisco,2022-09-15,17.3,0.0,Constitution Commemoration Day,2024-09-15,0.0
+Demon Slayer: Kimetsu no Yaiba - Tsuzumi Mansion Arc,2022-09-15,7.5,130.0,New York,2022-09-15,19.1,7.1,Constitution Commemoration Day,2024-09-15,0.0
+Werewolf by Night,2022-09-25,7.0,1278.0,San Francisco,2022-09-25,16.9,0.0,American Indian Day,2024-09-23,2.0
+Werewolf by Night,2022-09-25,7.0,1278.0,New York,2022-09-25,18.1,2.3,American Indian Day,2024-09-23,2.0
+Werewolf by Night,2022-09-25,7.0,1278.0,San Francisco,2022-09-25,16.9,0.0,Native American Day,2024-09-27,2.0
+Werewolf by Night,2022-09-25,7.0,1278.0,New York,2022-09-25,18.1,2.3,Native American Day,2024-09-27,2.0
+Werewolf by Night,2022-09-25,7.0,1278.0,San Francisco,2022-09-25,16.9,0.0,American Indian Heritage Day,2024-09-27,2.0
+Werewolf by Night,2022-09-25,7.0,1278.0,New York,2022-09-25,18.1,2.3,American Indian Heritage Day,2024-09-27,2.0
+Werewolf by Night,2022-09-25,7.0,1278.0,San Francisco,2022-09-25,16.9,0.0,Michigan Indian Day,2024-09-27,2.0
+Werewolf by Night,2022-09-25,7.0,1278.0,New York,2022-09-25,18.1,2.3,Michigan Indian Day,2024-09-27,2.0
+The Stranger,2022-10-06,6.16,316.0,San Francisco,2022-10-06,15.5,0.0,Frances Xavier Cabrini Day,2024-10-07,1.0
+The Stranger,2022-10-06,6.16,316.0,New York,2022-10-06,16.2,0.0,Frances Xavier Cabrini Day,2024-10-07,1.0
+Blackout,2022-10-12,5.158,146.0,San Francisco,2022-10-12,15.2,0.0,Casimir Pulaski Day,2024-10-11,1.0
+Blackout,2022-10-12,5.158,146.0,New York,2022-10-12,14.6,0.2,Casimir Pulaski Day,2024-10-11,1.0
+Blackout,2022-10-12,5.158,146.0,San Francisco,2022-10-12,15.2,0.0,Anniversary of Death of General Pulaski,2024-10-11,1.0
+Blackout,2022-10-12,5.158,146.0,New York,2022-10-12,14.6,0.2,Anniversary of Death of General Pulaski,2024-10-11,1.0
+Blackout,2022-10-12,5.158,146.0,San Francisco,2022-10-12,15.2,0.0,Robert E. Lee's Birthday,2024-10-12,0.0
+Blackout,2022-10-12,5.158,146.0,New York,2022-10-12,14.6,0.2,Robert E. Lee's Birthday,2024-10-12,0.0
+Blackout,2022-10-12,5.158,146.0,San Francisco,2022-10-12,15.2,0.0,Yom Kippur,2024-10-12,0.0
+Blackout,2022-10-12,5.158,146.0,New York,2022-10-12,14.6,0.2,Yom Kippur,2024-10-12,0.0
+Blackout,2022-10-12,5.158,146.0,San Francisco,2022-10-12,15.2,0.0,Columbus Day,2024-10-14,2.0
+Blackout,2022-10-12,5.158,146.0,New York,2022-10-12,14.6,0.2,Columbus Day,2024-10-14,2.0
+Blackout,2022-10-12,5.158,146.0,San Francisco,2022-10-12,15.2,0.0,Fraternal Day,2024-10-14,2.0
+Blackout,2022-10-12,5.158,146.0,New York,2022-10-12,14.6,0.2,Fraternal Day,2024-10-14,2.0
+Blackout,2022-10-12,5.158,146.0,San Francisco,2022-10-12,15.2,0.0,Yorktown Victory Day,2024-10-14,2.0
+Blackout,2022-10-12,5.158,146.0,New York,2022-10-12,14.6,0.2,Yorktown Victory Day,2024-10-14,2.0
+Blackout,2022-10-12,5.158,146.0,San Francisco,2022-10-12,15.2,0.0,Discoverers’ Day,2024-10-14,2.0
+Blackout,2022-10-12,5.158,146.0,New York,2022-10-12,14.6,0.2,Discoverers’ Day,2024-10-14,2.0
+Blackout,2022-10-12,5.158,146.0,San Francisco,2022-10-12,15.2,0.0,Native American Day,2024-10-14,2.0
+Blackout,2022-10-12,5.158,146.0,New York,2022-10-12,14.6,0.2,Native American Day,2024-10-14,2.0
+Blackout,2022-10-12,5.158,146.0,San Francisco,2022-10-12,15.2,0.0,Indigenous People's Day,2024-10-14,2.0
+Blackout,2022-10-12,5.158,146.0,New York,2022-10-12,14.6,0.2,Indigenous People's Day,2024-10-14,2.0
+Blackout,2022-10-12,5.158,146.0,San Francisco,2022-10-12,15.2,0.0,American Indian Heritage Day,2024-10-14,2.0
+Blackout,2022-10-12,5.158,146.0,New York,2022-10-12,14.6,0.2,American Indian Heritage Day,2024-10-14,2.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,San Francisco,2022-10-14,14.4,0.0,Robert E. Lee's Birthday,2024-10-12,2.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,New York,2022-10-14,14.8,20.1,Robert E. Lee's Birthday,2024-10-12,2.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,San Francisco,2022-10-14,14.4,0.0,Yom Kippur,2024-10-12,2.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,New York,2022-10-14,14.8,20.1,Yom Kippur,2024-10-12,2.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,San Francisco,2022-10-14,14.4,0.0,Columbus Day,2024-10-14,0.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,New York,2022-10-14,14.8,20.1,Columbus Day,2024-10-14,0.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,San Francisco,2022-10-14,14.4,0.0,Fraternal Day,2024-10-14,0.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,New York,2022-10-14,14.8,20.1,Fraternal Day,2024-10-14,0.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,San Francisco,2022-10-14,14.4,0.0,Yorktown Victory Day,2024-10-14,0.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,New York,2022-10-14,14.8,20.1,Yorktown Victory Day,2024-10-14,0.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,San Francisco,2022-10-14,14.4,0.0,Discoverers’ Day,2024-10-14,0.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,New York,2022-10-14,14.8,20.1,Discoverers’ Day,2024-10-14,0.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,San Francisco,2022-10-14,14.4,0.0,Native American Day,2024-10-14,0.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,New York,2022-10-14,14.8,20.1,Native American Day,2024-10-14,0.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,San Francisco,2022-10-14,14.4,0.0,Indigenous People's Day,2024-10-14,0.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,New York,2022-10-14,14.8,20.1,Indigenous People's Day,2024-10-14,0.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,San Francisco,2022-10-14,14.4,0.0,American Indian Heritage Day,2024-10-14,0.0
+Accident Man: Hitman's Holiday,2022-10-14,6.6,171.0,New York,2022-10-14,14.8,20.1,American Indian Heritage Day,2024-10-14,0.0
+The Banshees of Inisherin,2022-10-20,7.454,2740.0,San Francisco,2022-10-20,16.0,0.0,Alaska Day,2024-10-18,2.0
+The Banshees of Inisherin,2022-10-20,7.454,2740.0,New York,2022-10-20,9.9,0.0,Alaska Day,2024-10-18,2.0
 Detective Knight: Rogue,2022-10-21,6.2,152.0,San Francisco,2022-10-21,14.8,0.0,,,
 Detective Knight: Rogue,2022-10-21,6.2,152.0,New York,2022-10-21,10.9,0.2,,,
 Unicorn Wars,2022-10-21,7.613,160.0,San Francisco,2022-10-21,14.8,0.0,,,
 Unicorn Wars,2022-10-21,7.613,160.0,New York,2022-10-21,10.9,0.2,,,
 Sword Art Online the Movie – Progressive – Scherzo of Deep Night,2022-10-22,7.7,182.0,San Francisco,2022-10-22,17.0,0.0,,,
 Sword Art Online the Movie – Progressive – Scherzo of Deep Night,2022-10-22,7.7,182.0,New York,2022-10-22,11.8,0.2,,,
-Blade of the 47 Ronin,2022-10-25,6.5,204.0,San Francisco,2022-10-25,14.3,0.0,,,
-Blade of the 47 Ronin,2022-10-25,6.5,204.0,New York,2022-10-25,17.7,0.4,,,
-Beyond the Universe,2022-10-27,8.0,319.0,San Francisco,2022-10-27,13.2,0.0,,,
-Beyond the Universe,2022-10-27,8.0,319.0,New York,2022-10-27,14.2,0.0,,,
+Blade of the 47 Ronin,2022-10-25,6.5,204.0,San Francisco,2022-10-25,14.3,0.0,Nevada Day,2024-10-25,0.0
+Blade of the 47 Ronin,2022-10-25,6.5,204.0,New York,2022-10-25,17.7,0.4,Nevada Day,2024-10-25,0.0
+Beyond the Universe,2022-10-27,8.0,319.0,San Francisco,2022-10-27,13.2,0.0,Nevada Day,2024-10-25,2.0
+Beyond the Universe,2022-10-27,8.0,319.0,New York,2022-10-27,14.2,0.0,Nevada Day,2024-10-25,2.0
 Masquerade,2022-11-01,6.8,410.0,San Francisco,2022-11-01,13.4,5.3,,,
 Masquerade,2022-11-01,6.8,410.0,New York,2022-11-01,15.8,5.8,,,
-Black Panther: Wakanda Forever,2022-11-09,7.093,6506.0,San Francisco,2022-11-09,11.0,0.0,,,
-Black Panther: Wakanda Forever,2022-11-09,7.093,6506.0,New York,2022-11-09,7.5,0.2,,,
-Guillermo del Toro's Pinocchio,2022-11-09,8.083,2907.0,San Francisco,2022-11-09,11.0,0.0,,,
-Guillermo del Toro's Pinocchio,2022-11-09,8.083,2907.0,New York,2022-11-09,7.5,0.2,,,
+Black Panther: Wakanda Forever,2022-11-09,7.093,6506.0,San Francisco,2022-11-09,11.0,0.0,Return Day,2024-11-07,2.0
+Black Panther: Wakanda Forever,2022-11-09,7.093,6506.0,New York,2022-11-09,7.5,0.2,Return Day,2024-11-07,2.0
+Black Panther: Wakanda Forever,2022-11-09,7.093,6506.0,San Francisco,2022-11-09,11.0,0.0,Barack Obama Day,2024-11-11,2.0
+Black Panther: Wakanda Forever,2022-11-09,7.093,6506.0,New York,2022-11-09,7.5,0.2,Barack Obama Day,2024-11-11,2.0
+Black Panther: Wakanda Forever,2022-11-09,7.093,6506.0,San Francisco,2022-11-09,11.0,0.0,Veterans Day,2024-11-11,2.0
+Black Panther: Wakanda Forever,2022-11-09,7.093,6506.0,New York,2022-11-09,7.5,0.2,Veterans Day,2024-11-11,2.0
+Black Panther: Wakanda Forever,2022-11-09,7.093,6506.0,San Francisco,2022-11-09,11.0,0.0,Veterans' Day/Armistice Day,2024-11-11,2.0
+Black Panther: Wakanda Forever,2022-11-09,7.093,6506.0,New York,2022-11-09,7.5,0.2,Veterans' Day/Armistice Day,2024-11-11,2.0
+Guillermo del Toro's Pinocchio,2022-11-09,8.083,2907.0,San Francisco,2022-11-09,11.0,0.0,Return Day,2024-11-07,2.0
+Guillermo del Toro's Pinocchio,2022-11-09,8.083,2907.0,New York,2022-11-09,7.5,0.2,Return Day,2024-11-07,2.0
+Guillermo del Toro's Pinocchio,2022-11-09,8.083,2907.0,San Francisco,2022-11-09,11.0,0.0,Barack Obama Day,2024-11-11,2.0
+Guillermo del Toro's Pinocchio,2022-11-09,8.083,2907.0,New York,2022-11-09,7.5,0.2,Barack Obama Day,2024-11-11,2.0
+Guillermo del Toro's Pinocchio,2022-11-09,8.083,2907.0,San Francisco,2022-11-09,11.0,0.0,Veterans Day,2024-11-11,2.0
+Guillermo del Toro's Pinocchio,2022-11-09,8.083,2907.0,New York,2022-11-09,7.5,0.2,Veterans Day,2024-11-11,2.0
+Guillermo del Toro's Pinocchio,2022-11-09,8.083,2907.0,San Francisco,2022-11-09,11.0,0.0,Veterans' Day/Armistice Day,2024-11-11,2.0
+Guillermo del Toro's Pinocchio,2022-11-09,8.083,2907.0,New York,2022-11-09,7.5,0.2,Veterans' Day/Armistice Day,2024-11-11,2.0
 The Guardians of the Galaxy Holiday Special,2022-11-24,7.141,1998.0,San Francisco,2022-11-24,12.4,0.0,,,
 The Guardians of the Galaxy Holiday Special,2022-11-24,7.141,1998.0,New York,2022-11-24,5.9,0.0,,,
-Venus,2022-12-02,6.2,231.0,San Francisco,2022-12-02,5.7,0.0,,,
-Venus,2022-12-02,6.2,231.0,New York,2022-12-02,2.1,0.4,,,
-The Man from Toronto,2022-12-23,6.484,371.0,San Francisco,2022-12-23,10.3,0.0,,,
-The Man from Toronto,2022-12-23,6.484,371.0,New York,2022-12-23,2.4,10.5,,,
-Inspector Sun and the Curse of the Black Widow,2022-12-28,6.7,144.0,San Francisco,2022-12-28,9.7,0.0,,,
-Inspector Sun and the Curse of the Black Widow,2022-12-28,6.7,144.0,New York,2022-12-28,1.0,0.0,,,
-Shotgun Wedding,2022-12-28,6.307,1160.0,San Francisco,2022-12-28,9.7,0.0,,,
-Shotgun Wedding,2022-12-28,6.307,1160.0,New York,2022-12-28,1.0,0.0,,,
-Legion of Super-Heroes,2023-02-07,6.473,184.0,San Francisco,2023-02-07,9.2,0.0,,,
-Legion of Super-Heroes,2023-02-07,6.473,184.0,New York,2023-02-07,3.1,1.5,,,
-Ant-Man and the Wasp: Quantumania,2023-02-15,6.3,4991.0,San Francisco,2023-02-15,9.1,0.0,,,
-Ant-Man and the Wasp: Quantumania,2023-02-15,6.3,4991.0,New York,2023-02-15,12.4,0.4,,,
+Venus,2022-12-02,6.2,231.0,San Francisco,2022-12-02,5.7,0.0,Rosa Parks Day,2024-12-01,1.0
+Venus,2022-12-02,6.2,231.0,New York,2022-12-02,2.1,0.4,Rosa Parks Day,2024-12-01,1.0
+The Man from Toronto,2022-12-23,6.484,371.0,San Francisco,2022-12-23,10.3,0.0,Christmas Eve,2024-12-24,1.0
+The Man from Toronto,2022-12-23,6.484,371.0,New York,2022-12-23,2.4,10.5,Christmas Eve,2024-12-24,1.0
+The Man from Toronto,2022-12-23,6.484,371.0,San Francisco,2022-12-23,10.3,0.0,Christmas Day,2024-12-25,2.0
+The Man from Toronto,2022-12-23,6.484,371.0,New York,2022-12-23,2.4,10.5,Christmas Day,2024-12-25,2.0
+Inspector Sun and the Curse of the Black Widow,2022-12-28,6.7,144.0,San Francisco,2022-12-28,9.7,0.0,Day After Christmas Day,2024-12-26,2.0
+Inspector Sun and the Curse of the Black Widow,2022-12-28,6.7,144.0,New York,2022-12-28,1.0,0.0,Day After Christmas Day,2024-12-26,2.0
+Shotgun Wedding,2022-12-28,6.307,1160.0,San Francisco,2022-12-28,9.7,0.0,Day After Christmas Day,2024-12-26,2.0
+Shotgun Wedding,2022-12-28,6.307,1160.0,New York,2022-12-28,1.0,0.0,Day After Christmas Day,2024-12-26,2.0
+Legion of Super-Heroes,2023-02-07,6.473,184.0,San Francisco,2023-02-07,9.2,0.0,Ronald Reagan Day,2024-02-06,1.0
+Legion of Super-Heroes,2023-02-07,6.473,184.0,New York,2023-02-07,3.1,1.5,Ronald Reagan Day,2024-02-06,1.0
+Ant-Man and the Wasp: Quantumania,2023-02-15,6.3,4991.0,San Francisco,2023-02-15,9.1,0.0,Shrove Tuesday/Mardi Gras,2024-02-13,2.0
+Ant-Man and the Wasp: Quantumania,2023-02-15,6.3,4991.0,New York,2023-02-15,12.4,0.4,Shrove Tuesday/Mardi Gras,2024-02-13,2.0
+Ant-Man and the Wasp: Quantumania,2023-02-15,6.3,4991.0,San Francisco,2023-02-15,9.1,0.0,Statehood Day,2024-02-14,1.0
+Ant-Man and the Wasp: Quantumania,2023-02-15,6.3,4991.0,New York,2023-02-15,12.4,0.4,Statehood Day,2024-02-14,1.0
+Ant-Man and the Wasp: Quantumania,2023-02-15,6.3,4991.0,San Francisco,2023-02-15,9.1,0.0,Susan B. Anthony's Birthday,2024-02-15,0.0
+Ant-Man and the Wasp: Quantumania,2023-02-15,6.3,4991.0,New York,2023-02-15,12.4,0.4,Susan B. Anthony's Birthday,2024-02-15,0.0
+Ant-Man and the Wasp: Quantumania,2023-02-15,6.3,4991.0,San Francisco,2023-02-15,9.1,0.0,Susan B. Anthony Day,2024-02-15,0.0
+Ant-Man and the Wasp: Quantumania,2023-02-15,6.3,4991.0,New York,2023-02-15,12.4,0.4,Susan B. Anthony Day,2024-02-15,0.0
+Ant-Man and the Wasp: Quantumania,2023-02-15,6.3,4991.0,San Francisco,2023-02-15,9.1,0.0,Elizabeth Peratrovich Day,2024-02-16,1.0
+Ant-Man and the Wasp: Quantumania,2023-02-15,6.3,4991.0,New York,2023-02-15,12.4,0.4,Elizabeth Peratrovich Day,2024-02-16,1.0
 Scream VI,2023-03-08,7.03,2623.0,San Francisco,2023-03-08,9.1,3.8,,,
 Scream VI,2023-03-08,7.03,2623.0,New York,2023-03-08,4.4,0.0,,,
 Champions,2023-03-09,6.8,361.0,San Francisco,2023-03-09,9.3,23.1,,,
 Champions,2023-03-09,6.8,361.0,New York,2023-03-09,6.0,0.5,,,
-Sage homme,2023-03-15,7.116,177.0,San Francisco,2023-03-15,9.9,0.0,,,
-Sage homme,2023-03-15,7.116,177.0,New York,2023-03-15,2.9,0.0,,,
-Shazam! Fury of the Gods,2023-03-15,6.5,3101.0,San Francisco,2023-03-15,9.9,0.0,,,
-Shazam! Fury of the Gods,2023-03-15,6.5,3101.0,New York,2023-03-15,2.9,0.0,,,
-Last Sentinel,2023-03-17,5.5,163.0,San Francisco,2023-03-17,11.6,0.0,,,
-Last Sentinel,2023-03-17,5.5,163.0,New York,2023-03-17,8.6,0.1,,,
-The Portable Door,2023-03-23,6.6,214.0,San Francisco,2023-03-23,11.3,0.0,,,
-The Portable Door,2023-03-23,6.6,214.0,New York,2023-03-23,11.3,1.9,,,
+Sage homme,2023-03-15,7.116,177.0,San Francisco,2023-03-15,9.9,0.0,Evacuation Day,2024-03-17,2.0
+Sage homme,2023-03-15,7.116,177.0,New York,2023-03-15,2.9,0.0,Evacuation Day,2024-03-17,2.0
+Shazam! Fury of the Gods,2023-03-15,6.5,3101.0,San Francisco,2023-03-15,9.9,0.0,Evacuation Day,2024-03-17,2.0
+Shazam! Fury of the Gods,2023-03-15,6.5,3101.0,New York,2023-03-15,2.9,0.0,Evacuation Day,2024-03-17,2.0
+Last Sentinel,2023-03-17,5.5,163.0,San Francisco,2023-03-17,11.6,0.0,Evacuation Day,2024-03-17,0.0
+Last Sentinel,2023-03-17,5.5,163.0,New York,2023-03-17,8.6,0.1,Evacuation Day,2024-03-17,0.0
+Last Sentinel,2023-03-17,5.5,163.0,San Francisco,2023-03-17,11.6,0.0,Evacuation Day observed,2024-03-18,1.0
+Last Sentinel,2023-03-17,5.5,163.0,New York,2023-03-17,8.6,0.1,Evacuation Day observed,2024-03-18,1.0
+The Portable Door,2023-03-23,6.6,214.0,San Francisco,2023-03-23,11.3,0.0,Maryland Day,2024-03-25,2.0
+The Portable Door,2023-03-23,6.6,214.0,New York,2023-03-23,11.3,1.9,Maryland Day,2024-03-25,2.0
+The Portable Door,2023-03-23,6.6,214.0,San Francisco,2023-03-23,11.3,0.0,Seward's Day,2024-03-25,2.0
+The Portable Door,2023-03-23,6.6,214.0,New York,2023-03-23,11.3,1.9,Seward's Day,2024-03-25,2.0
 The Three Musketeers: D'Artagnan,2023-04-05,7.0,1198.0,San Francisco,2023-04-05,9.6,0.0,,,
 The Three Musketeers: D'Artagnan,2023-04-05,7.0,1198.0,New York,2023-04-05,10.5,0.1,,,
-Mighty Morphin Power Rangers: Once & Always,2023-04-19,6.569,255.0,San Francisco,2023-04-19,12.0,0.0,,,
-Mighty Morphin Power Rangers: Once & Always,2023-04-19,6.569,255.0,New York,2023-04-19,10.7,0.0,,,
-Knights of the Zodiac,2023-04-27,6.406,1133.0,San Francisco,2023-04-27,16.9,0.0,,,
-Knights of the Zodiac,2023-04-27,6.406,1133.0,New York,2023-04-27,11.9,2.4,,,
-Guardians of the Galaxy Vol. 3,2023-05-03,8.0,6880.0,San Francisco,2023-05-03,11.6,10.2,,,
-Guardians of the Galaxy Vol. 3,2023-05-03,8.0,6880.0,New York,2023-05-03,11.1,0.7,,,
-Death's Roulette,2023-05-05,6.4,206.0,San Francisco,2023-05-05,13.0,2.5,,,
-Death's Roulette,2023-05-05,6.4,206.0,New York,2023-05-05,13.0,2.3,,,
-Where the Tracks End,2023-05-26,8.2,102.0,San Francisco,2023-05-26,14.4,0.0,,,
-Where the Tracks End,2023-05-26,8.2,102.0,New York,2023-05-26,18.2,0.0,,,
-Spider-Man: Across the Spider-Verse,2023-05-31,8.4,7014.0,San Francisco,2023-05-31,13.7,0.0,,,
-Spider-Man: Across the Spider-Verse,2023-05-31,8.4,7014.0,New York,2023-05-31,17.6,0.0,,,
-Shooting Stars,2023-06-02,7.909,138.0,San Francisco,2023-06-02,14.8,0.0,,,
-Shooting Stars,2023-06-02,7.909,138.0,New York,2023-06-02,23.0,0.0,,,
+Mighty Morphin Power Rangers: Once & Always,2023-04-19,6.569,255.0,San Francisco,2023-04-19,12.0,0.0,Arbor Day,2024-04-19,0.0
+Mighty Morphin Power Rangers: Once & Always,2023-04-19,6.569,255.0,New York,2023-04-19,10.7,0.0,Arbor Day,2024-04-19,0.0
+Mighty Morphin Power Rangers: Once & Always,2023-04-19,6.569,255.0,San Francisco,2023-04-19,12.0,0.0,San Jacinto Day,2024-04-21,2.0
+Mighty Morphin Power Rangers: Once & Always,2023-04-19,6.569,255.0,New York,2023-04-19,10.7,0.0,San Jacinto Day,2024-04-21,2.0
+Knights of the Zodiac,2023-04-27,6.406,1133.0,San Francisco,2023-04-27,16.9,0.0,Arbor Day,2024-04-26,1.0
+Knights of the Zodiac,2023-04-27,6.406,1133.0,New York,2023-04-27,11.9,2.4,Arbor Day,2024-04-26,1.0
+Knights of the Zodiac,2023-04-27,6.406,1133.0,San Francisco,2023-04-27,16.9,0.0,Confederate Memorial Day,2024-04-26,1.0
+Knights of the Zodiac,2023-04-27,6.406,1133.0,New York,2023-04-27,11.9,2.4,Confederate Memorial Day,2024-04-26,1.0
+Knights of the Zodiac,2023-04-27,6.406,1133.0,San Francisco,2023-04-27,16.9,0.0,State Holiday,2024-04-26,1.0
+Knights of the Zodiac,2023-04-27,6.406,1133.0,New York,2023-04-27,11.9,2.4,State Holiday,2024-04-26,1.0
+Knights of the Zodiac,2023-04-27,6.406,1133.0,San Francisco,2023-04-27,16.9,0.0,Arbor Day,2024-04-29,2.0
+Knights of the Zodiac,2023-04-27,6.406,1133.0,New York,2023-04-27,11.9,2.4,Arbor Day,2024-04-29,2.0
+Knights of the Zodiac,2023-04-27,6.406,1133.0,San Francisco,2023-04-27,16.9,0.0,Confederate Memorial Day,2024-04-29,2.0
+Knights of the Zodiac,2023-04-27,6.406,1133.0,New York,2023-04-27,11.9,2.4,Confederate Memorial Day,2024-04-29,2.0
+Guardians of the Galaxy Vol. 3,2023-05-03,8.0,6880.0,San Francisco,2023-05-03,11.6,10.2,Lei Day,2024-05-01,2.0
+Guardians of the Galaxy Vol. 3,2023-05-03,8.0,6880.0,New York,2023-05-03,11.1,0.7,Lei Day,2024-05-01,2.0
+Guardians of the Galaxy Vol. 3,2023-05-03,8.0,6880.0,San Francisco,2023-05-03,11.6,10.2,West Virginia Day of Prayer,2024-05-02,1.0
+Guardians of the Galaxy Vol. 3,2023-05-03,8.0,6880.0,New York,2023-05-03,11.1,0.7,West Virginia Day of Prayer,2024-05-02,1.0
+Guardians of the Galaxy Vol. 3,2023-05-03,8.0,6880.0,San Francisco,2023-05-03,11.6,10.2,Kent State Shootings Remembrance,2024-05-04,1.0
+Guardians of the Galaxy Vol. 3,2023-05-03,8.0,6880.0,New York,2023-05-03,11.1,0.7,Kent State Shootings Remembrance,2024-05-04,1.0
+Guardians of the Galaxy Vol. 3,2023-05-03,8.0,6880.0,San Francisco,2023-05-03,11.6,10.2,Rhode Island Independence Day,2024-05-04,1.0
+Guardians of the Galaxy Vol. 3,2023-05-03,8.0,6880.0,New York,2023-05-03,11.1,0.7,Rhode Island Independence Day,2024-05-04,1.0
+Death's Roulette,2023-05-05,6.4,206.0,San Francisco,2023-05-05,13.0,2.5,Kent State Shootings Remembrance,2024-05-04,1.0
+Death's Roulette,2023-05-05,6.4,206.0,New York,2023-05-05,13.0,2.3,Kent State Shootings Remembrance,2024-05-04,1.0
+Death's Roulette,2023-05-05,6.4,206.0,San Francisco,2023-05-05,13.0,2.5,Rhode Island Independence Day,2024-05-04,1.0
+Death's Roulette,2023-05-05,6.4,206.0,New York,2023-05-05,13.0,2.3,Rhode Island Independence Day,2024-05-04,1.0
+Where the Tracks End,2023-05-26,8.2,102.0,San Francisco,2023-05-26,14.4,0.0,Memorial Day,2024-05-27,1.0
+Where the Tracks End,2023-05-26,8.2,102.0,New York,2023-05-26,18.2,0.0,Memorial Day,2024-05-27,1.0
+Where the Tracks End,2023-05-26,8.2,102.0,San Francisco,2023-05-26,14.4,0.0,Decoration Day,2024-05-27,1.0
+Where the Tracks End,2023-05-26,8.2,102.0,New York,2023-05-26,18.2,0.0,Decoration Day,2024-05-27,1.0
+Where the Tracks End,2023-05-26,8.2,102.0,San Francisco,2023-05-26,14.4,0.0,Jefferson Davis' Birthday,2024-05-27,1.0
+Where the Tracks End,2023-05-26,8.2,102.0,New York,2023-05-26,18.2,0.0,Jefferson Davis' Birthday,2024-05-27,1.0
+Spider-Man: Across the Spider-Verse,2023-05-31,8.4,7014.0,San Francisco,2023-05-31,13.7,0.0,Statehood Day,2024-06-01,1.0
+Spider-Man: Across the Spider-Verse,2023-05-31,8.4,7014.0,New York,2023-05-31,17.6,0.0,Statehood Day,2024-06-01,1.0
+Spider-Man: Across the Spider-Verse,2023-05-31,8.4,7014.0,San Francisco,2023-05-31,13.7,0.0,Native American Day,2024-06-02,2.0
+Spider-Man: Across the Spider-Verse,2023-05-31,8.4,7014.0,New York,2023-05-31,17.6,0.0,Native American Day,2024-06-02,2.0
+Shooting Stars,2023-06-02,7.909,138.0,San Francisco,2023-06-02,14.8,0.0,Statehood Day,2024-06-01,1.0
+Shooting Stars,2023-06-02,7.909,138.0,New York,2023-06-02,23.0,0.0,Statehood Day,2024-06-01,1.0
+Shooting Stars,2023-06-02,7.909,138.0,San Francisco,2023-06-02,14.8,0.0,Native American Day,2024-06-02,0.0
+Shooting Stars,2023-06-02,7.909,138.0,New York,2023-06-02,23.0,0.0,Native American Day,2024-06-02,0.0
+Shooting Stars,2023-06-02,7.909,138.0,San Francisco,2023-06-02,14.8,0.0,Jefferson Davis' Birthday,2024-06-03,1.0
+Shooting Stars,2023-06-02,7.909,138.0,New York,2023-06-02,23.0,0.0,Jefferson Davis' Birthday,2024-06-03,1.0
 My Fault,2023-06-08,7.916,3086.0,San Francisco,2023-06-08,16.4,0.0,,,
 My Fault,2023-06-08,7.916,3086.0,New York,2023-06-08,18.4,0.4,,,
-Resident Evil: Death Island,2023-06-22,7.4,977.0,San Francisco,2023-06-22,15.4,0.0,,,
-Resident Evil: Death Island,2023-06-22,7.4,977.0,New York,2023-06-22,18.5,1.5,,,
-"Miraculous: Ladybug & Cat Noir, The Movie",2023-07-05,7.7,859.0,San Francisco,2023-07-05,16.2,0.0,,,
-"Miraculous: Ladybug & Cat Noir, The Movie",2023-07-05,7.7,859.0,New York,2023-07-05,27.2,0.3,,,
-Creation of the Gods I: Kingdom of Storms,2023-07-15,7.128,367.0,San Francisco,2023-07-15,17.7,0.0,,,
-Creation of the Gods I: Kingdom of Storms,2023-07-15,7.128,367.0,New York,2023-07-15,26.0,0.4,,,
+Resident Evil: Death Island,2023-06-22,7.4,977.0,San Francisco,2023-06-22,15.4,0.0,West Virginia Day,2024-06-20,2.0
+Resident Evil: Death Island,2023-06-22,7.4,977.0,New York,2023-06-22,18.5,1.5,West Virginia Day,2024-06-20,2.0
+Resident Evil: Death Island,2023-06-22,7.4,977.0,San Francisco,2023-06-22,15.4,0.0,Juneteenth Day,2024-06-21,1.0
+Resident Evil: Death Island,2023-06-22,7.4,977.0,New York,2023-06-22,18.5,1.5,Juneteenth Day,2024-06-21,1.0
+"Miraculous: Ladybug & Cat Noir, The Movie",2023-07-05,7.7,859.0,San Francisco,2023-07-05,16.2,0.0,Independence Day,2024-07-04,1.0
+"Miraculous: Ladybug & Cat Noir, The Movie",2023-07-05,7.7,859.0,New York,2023-07-05,27.2,0.3,Independence Day,2024-07-04,1.0
+Creation of the Gods I: Kingdom of Storms,2023-07-15,7.128,367.0,San Francisco,2023-07-15,17.7,0.0,Nathan Bedford Forrest Day,2024-07-13,2.0
+Creation of the Gods I: Kingdom of Storms,2023-07-15,7.128,367.0,New York,2023-07-15,26.0,0.4,Nathan Bedford Forrest Day,2024-07-13,2.0
 Sympathy for the Devil,2023-07-20,6.0,225.0,San Francisco,2023-07-20,17.0,0.0,,,
 Sympathy for the Devil,2023-07-20,6.0,225.0,New York,2023-07-20,26.2,0.6,,,
 See You on Venus,2023-07-21,7.046,173.0,San Francisco,2023-07-21,17.4,0.0,,,
 See You on Venus,2023-07-21,7.046,173.0,New York,2023-07-21,26.1,34.6,,,
-Kingdom III: The Flame of Destiny,2023-07-28,7.522,113.0,San Francisco,2023-07-28,16.6,0.0,,,
-Kingdom III: The Flame of Destiny,2023-07-28,7.522,113.0,New York,2023-07-28,29.0,0.2,,,
-The Seven Deadly Sins: Grudge of Edinburgh Part 2,2023-08-08,7.144,198.0,San Francisco,2023-08-08,17.8,0.0,,,
-The Seven Deadly Sins: Grudge of Edinburgh Part 2,2023-08-08,7.144,198.0,New York,2023-08-08,23.8,1.6,,,
-Blue Beetle,2023-08-16,6.742,2609.0,San Francisco,2023-08-16,19.7,0.0,,,
-Blue Beetle,2023-08-16,6.742,2609.0,New York,2023-08-16,24.0,2.4,,,
-Sentinelle,2023-08-27,5.3,256.0,San Francisco,2023-08-27,17.9,0.0,,,
-Sentinelle,2023-08-27,5.3,256.0,New York,2023-08-27,25.3,0.3,,,
-The Abyss,2023-09-15,5.717,246.0,San Francisco,2023-09-15,18.2,0.0,,,
-The Abyss,2023-09-15,5.717,246.0,New York,2023-09-15,19.0,0.0,,,
-Forgotten Love,2023-09-27,7.94,276.0,San Francisco,2023-09-27,17.2,0.0,,,
-Forgotten Love,2023-09-27,7.94,276.0,New York,2023-09-27,16.4,0.0,,,
-Reptile,2023-09-29,6.7,949.0,San Francisco,2023-09-29,16.7,0.0,,,
-Reptile,2023-09-29,6.7,949.0,New York,2023-09-29,16.1,78.9,,,
-When Evil Lurks,2023-10-05,7.341,998.0,San Francisco,2023-10-05,22.7,0.0,,,
-When Evil Lurks,2023-10-05,7.341,998.0,New York,2023-10-05,20.6,0.0,,,
-Sister Death,2023-10-05,6.0,275.0,San Francisco,2023-10-05,22.7,0.0,,,
-Sister Death,2023-10-05,6.0,275.0,New York,2023-10-05,20.6,0.0,,,
-La Chimera,2023-10-12,7.354,378.0,San Francisco,2023-10-12,16.1,0.0,,,
-La Chimera,2023-10-12,7.354,378.0,New York,2023-10-12,17.9,0.0,,,
+Kingdom III: The Flame of Destiny,2023-07-28,7.522,113.0,San Francisco,2023-07-28,16.6,0.0,Korean War Veteran Recognition Day,2024-07-27,1.0
+Kingdom III: The Flame of Destiny,2023-07-28,7.522,113.0,New York,2023-07-28,29.0,0.2,Korean War Veteran Recognition Day,2024-07-27,1.0
+The Seven Deadly Sins: Grudge of Edinburgh Part 2,2023-08-08,7.144,198.0,San Francisco,2023-08-08,17.8,0.0,Purple Heart Day,2024-08-07,1.0
+The Seven Deadly Sins: Grudge of Edinburgh Part 2,2023-08-08,7.144,198.0,New York,2023-08-08,23.8,1.6,Purple Heart Day,2024-08-07,1.0
+Blue Beetle,2023-08-16,6.742,2609.0,San Francisco,2023-08-16,19.7,0.0,Hawaii Statehood Day,2024-08-16,0.0
+Blue Beetle,2023-08-16,6.742,2609.0,New York,2023-08-16,24.0,2.4,Hawaii Statehood Day,2024-08-16,0.0
+Blue Beetle,2023-08-16,6.742,2609.0,San Francisco,2023-08-16,19.7,0.0,Bennington Battle Day,2024-08-16,0.0
+Blue Beetle,2023-08-16,6.742,2609.0,New York,2023-08-16,24.0,2.4,Bennington Battle Day,2024-08-16,0.0
+Blue Beetle,2023-08-16,6.742,2609.0,San Francisco,2023-08-16,19.7,0.0,National Navajo Code Talkers Day,2024-08-18,2.0
+Blue Beetle,2023-08-16,6.742,2609.0,New York,2023-08-16,24.0,2.4,National Navajo Code Talkers Day,2024-08-18,2.0
+Sentinelle,2023-08-27,5.3,256.0,San Francisco,2023-08-27,17.9,0.0,Susan B. Anthony Day,2024-08-26,1.0
+Sentinelle,2023-08-27,5.3,256.0,New York,2023-08-27,25.3,0.3,Susan B. Anthony Day,2024-08-26,1.0
+Sentinelle,2023-08-27,5.3,256.0,San Francisco,2023-08-27,17.9,0.0,Lyndon Baines Johnson Day,2024-08-27,0.0
+Sentinelle,2023-08-27,5.3,256.0,New York,2023-08-27,25.3,0.3,Lyndon Baines Johnson Day,2024-08-27,0.0
+The Abyss,2023-09-15,5.717,246.0,San Francisco,2023-09-15,18.2,0.0,Constitution Commemoration Day,2024-09-15,0.0
+The Abyss,2023-09-15,5.717,246.0,New York,2023-09-15,19.0,0.0,Constitution Commemoration Day,2024-09-15,0.0
+Forgotten Love,2023-09-27,7.94,276.0,San Francisco,2023-09-27,17.2,0.0,Native American Day,2024-09-27,0.0
+Forgotten Love,2023-09-27,7.94,276.0,New York,2023-09-27,16.4,0.0,Native American Day,2024-09-27,0.0
+Forgotten Love,2023-09-27,7.94,276.0,San Francisco,2023-09-27,17.2,0.0,American Indian Heritage Day,2024-09-27,0.0
+Forgotten Love,2023-09-27,7.94,276.0,New York,2023-09-27,16.4,0.0,American Indian Heritage Day,2024-09-27,0.0
+Forgotten Love,2023-09-27,7.94,276.0,San Francisco,2023-09-27,17.2,0.0,Michigan Indian Day,2024-09-27,0.0
+Forgotten Love,2023-09-27,7.94,276.0,New York,2023-09-27,16.4,0.0,Michigan Indian Day,2024-09-27,0.0
+Forgotten Love,2023-09-27,7.94,276.0,San Francisco,2023-09-27,17.2,0.0,Public Lands Day,2024-09-28,1.0
+Forgotten Love,2023-09-27,7.94,276.0,New York,2023-09-27,16.4,0.0,Public Lands Day,2024-09-28,1.0
+Reptile,2023-09-29,6.7,949.0,San Francisco,2023-09-29,16.7,0.0,Native American Day,2024-09-27,2.0
+Reptile,2023-09-29,6.7,949.0,New York,2023-09-29,16.1,78.9,Native American Day,2024-09-27,2.0
+Reptile,2023-09-29,6.7,949.0,San Francisco,2023-09-29,16.7,0.0,American Indian Heritage Day,2024-09-27,2.0
+Reptile,2023-09-29,6.7,949.0,New York,2023-09-29,16.1,78.9,American Indian Heritage Day,2024-09-27,2.0
+Reptile,2023-09-29,6.7,949.0,San Francisco,2023-09-29,16.7,0.0,Michigan Indian Day,2024-09-27,2.0
+Reptile,2023-09-29,6.7,949.0,New York,2023-09-29,16.1,78.9,Michigan Indian Day,2024-09-27,2.0
+Reptile,2023-09-29,6.7,949.0,San Francisco,2023-09-29,16.7,0.0,Public Lands Day,2024-09-28,1.0
+Reptile,2023-09-29,6.7,949.0,New York,2023-09-29,16.1,78.9,Public Lands Day,2024-09-28,1.0
+When Evil Lurks,2023-10-05,7.341,998.0,San Francisco,2023-10-05,22.7,0.0,Rosh Hashana,2024-10-03,2.0
+When Evil Lurks,2023-10-05,7.341,998.0,New York,2023-10-05,20.6,0.0,Rosh Hashana,2024-10-03,2.0
+When Evil Lurks,2023-10-05,7.341,998.0,San Francisco,2023-10-05,22.7,0.0,Frances Xavier Cabrini Day,2024-10-07,2.0
+When Evil Lurks,2023-10-05,7.341,998.0,New York,2023-10-05,20.6,0.0,Frances Xavier Cabrini Day,2024-10-07,2.0
+Sister Death,2023-10-05,6.0,275.0,San Francisco,2023-10-05,22.7,0.0,Rosh Hashana,2024-10-03,2.0
+Sister Death,2023-10-05,6.0,275.0,New York,2023-10-05,20.6,0.0,Rosh Hashana,2024-10-03,2.0
+Sister Death,2023-10-05,6.0,275.0,San Francisco,2023-10-05,22.7,0.0,Frances Xavier Cabrini Day,2024-10-07,2.0
+Sister Death,2023-10-05,6.0,275.0,New York,2023-10-05,20.6,0.0,Frances Xavier Cabrini Day,2024-10-07,2.0
+La Chimera,2023-10-12,7.354,378.0,San Francisco,2023-10-12,16.1,0.0,Casimir Pulaski Day,2024-10-11,1.0
+La Chimera,2023-10-12,7.354,378.0,New York,2023-10-12,17.9,0.0,Casimir Pulaski Day,2024-10-11,1.0
+La Chimera,2023-10-12,7.354,378.0,San Francisco,2023-10-12,16.1,0.0,Anniversary of Death of General Pulaski,2024-10-11,1.0
+La Chimera,2023-10-12,7.354,378.0,New York,2023-10-12,17.9,0.0,Anniversary of Death of General Pulaski,2024-10-11,1.0
+La Chimera,2023-10-12,7.354,378.0,San Francisco,2023-10-12,16.1,0.0,Robert E. Lee's Birthday,2024-10-12,0.0
+La Chimera,2023-10-12,7.354,378.0,New York,2023-10-12,17.9,0.0,Robert E. Lee's Birthday,2024-10-12,0.0
+La Chimera,2023-10-12,7.354,378.0,San Francisco,2023-10-12,16.1,0.0,Yom Kippur,2024-10-12,0.0
+La Chimera,2023-10-12,7.354,378.0,New York,2023-10-12,17.9,0.0,Yom Kippur,2024-10-12,0.0
+La Chimera,2023-10-12,7.354,378.0,San Francisco,2023-10-12,16.1,0.0,Columbus Day,2024-10-14,2.0
+La Chimera,2023-10-12,7.354,378.0,New York,2023-10-12,17.9,0.0,Columbus Day,2024-10-14,2.0
+La Chimera,2023-10-12,7.354,378.0,San Francisco,2023-10-12,16.1,0.0,Fraternal Day,2024-10-14,2.0
+La Chimera,2023-10-12,7.354,378.0,New York,2023-10-12,17.9,0.0,Fraternal Day,2024-10-14,2.0
+La Chimera,2023-10-12,7.354,378.0,San Francisco,2023-10-12,16.1,0.0,Yorktown Victory Day,2024-10-14,2.0
+La Chimera,2023-10-12,7.354,378.0,New York,2023-10-12,17.9,0.0,Yorktown Victory Day,2024-10-14,2.0
+La Chimera,2023-10-12,7.354,378.0,San Francisco,2023-10-12,16.1,0.0,Discoverers’ Day,2024-10-14,2.0
+La Chimera,2023-10-12,7.354,378.0,New York,2023-10-12,17.9,0.0,Discoverers’ Day,2024-10-14,2.0
+La Chimera,2023-10-12,7.354,378.0,San Francisco,2023-10-12,16.1,0.0,Native American Day,2024-10-14,2.0
+La Chimera,2023-10-12,7.354,378.0,New York,2023-10-12,17.9,0.0,Native American Day,2024-10-14,2.0
+La Chimera,2023-10-12,7.354,378.0,San Francisco,2023-10-12,16.1,0.0,Indigenous People's Day,2024-10-14,2.0
+La Chimera,2023-10-12,7.354,378.0,New York,2023-10-12,17.9,0.0,Indigenous People's Day,2024-10-14,2.0
+La Chimera,2023-10-12,7.354,378.0,San Francisco,2023-10-12,16.1,0.0,American Indian Heritage Day,2024-10-14,2.0
+La Chimera,2023-10-12,7.354,378.0,New York,2023-10-12,17.9,0.0,American Indian Heritage Day,2024-10-14,2.0
 "Miraculous World: Paris, Tales of Shadybug and Claw Noir",2023-10-21,7.211,530.0,San Francisco,2023-10-21,16.6,0.0,,,
 "Miraculous World: Paris, Tales of Shadybug and Claw Noir",2023-10-21,7.211,530.0,New York,2023-10-21,16.2,3.2,,,
-Death Whisperer,2023-10-25,7.6,165.0,San Francisco,2023-10-25,15.5,0.0,,,
-Death Whisperer,2023-10-25,7.6,165.0,New York,2023-10-25,17.2,0.0,,,
-LEGO Marvel Avengers: Code Red,2023-10-26,6.655,103.0,San Francisco,2023-10-26,13.1,0.0,,,
-LEGO Marvel Avengers: Code Red,2023-10-26,6.655,103.0,New York,2023-10-26,20.0,0.0,,,
-The Marvels,2023-11-08,6.1,2696.0,San Francisco,2023-11-08,13.6,0.0,,,
-The Marvels,2023-11-08,6.1,2696.0,New York,2023-11-08,10.1,0.0,,,
-The Taste of Things,2023-11-08,7.0,271.0,San Francisco,2023-11-08,13.6,0.0,,,
-The Taste of Things,2023-11-08,7.0,271.0,New York,2023-11-08,10.1,0.0,,,
+Death Whisperer,2023-10-25,7.6,165.0,San Francisco,2023-10-25,15.5,0.0,Nevada Day,2024-10-25,0.0
+Death Whisperer,2023-10-25,7.6,165.0,New York,2023-10-25,17.2,0.0,Nevada Day,2024-10-25,0.0
+LEGO Marvel Avengers: Code Red,2023-10-26,6.655,103.0,San Francisco,2023-10-26,13.1,0.0,Nevada Day,2024-10-25,1.0
+LEGO Marvel Avengers: Code Red,2023-10-26,6.655,103.0,New York,2023-10-26,20.0,0.0,Nevada Day,2024-10-25,1.0
+The Marvels,2023-11-08,6.1,2696.0,San Francisco,2023-11-08,13.6,0.0,Return Day,2024-11-07,1.0
+The Marvels,2023-11-08,6.1,2696.0,New York,2023-11-08,10.1,0.0,Return Day,2024-11-07,1.0
+The Taste of Things,2023-11-08,7.0,271.0,San Francisco,2023-11-08,13.6,0.0,Return Day,2024-11-07,1.0
+The Taste of Things,2023-11-08,7.0,271.0,New York,2023-11-08,10.1,0.0,Return Day,2024-11-07,1.0
 The Hunger Games: The Ballad of Songbirds & Snakes,2023-11-15,7.1,2735.0,San Francisco,2023-11-15,15.8,1.3,,,
 The Hunger Games: The Ballad of Songbirds & Snakes,2023-11-15,7.1,2735.0,New York,2023-11-15,9.3,0.0,,,
 Maestro,2023-11-22,6.4,703.0,San Francisco,2023-11-22,11.6,0.0,,,
 Maestro,2023-11-22,6.4,703.0,New York,2023-11-22,11.7,24.8,,,
-Poor Things,2023-12-07,7.7,4186.0,San Francisco,2023-12-07,11.3,0.0,,,
-Poor Things,2023-12-07,7.7,4186.0,New York,2023-12-07,2.6,0.0,,,
+Poor Things,2023-12-07,7.7,4186.0,San Francisco,2023-12-07,11.3,0.0,Pearl Harbor Remembrance Day,2024-12-07,0.0
+Poor Things,2023-12-07,7.7,4186.0,New York,2023-12-07,2.6,0.0,Pearl Harbor Remembrance Day,2024-12-07,0.0
+Poor Things,2023-12-07,7.7,4186.0,San Francisco,2023-12-07,11.3,0.0,Delaware Day,2024-12-07,0.0
+Poor Things,2023-12-07,7.7,4186.0,New York,2023-12-07,2.6,0.0,Delaware Day,2024-12-07,0.0
 Role Play,2023-12-14,5.972,526.0,San Francisco,2023-12-14,10.1,0.0,,,
 Role Play,2023-12-14,5.972,526.0,New York,2023-12-14,3.9,0.0,,,
-Alice in Terrorland,2023-12-26,6.0,166.0,San Francisco,2023-12-26,10.3,0.0,,,
-Alice in Terrorland,2023-12-26,6.0,166.0,New York,2023-12-26,7.4,0.0,,,
-Infested,2023-12-27,6.7,370.0,San Francisco,2023-12-27,12.8,1.5,New Year's Day,2024-01-01,5.0
-Infested,2023-12-27,6.7,370.0,New York,2023-12-27,7.9,6.7,New Year's Day,2024-01-01,5.0
-Infested,2023-12-27,6.7,370.0,San Francisco,2023-12-27,12.8,1.5,New Year's Eve observed,2024-01-01,5.0
-Infested,2023-12-27,6.7,370.0,New York,2023-12-27,7.9,6.7,New Year's Eve observed,2024-01-01,5.0
+Alice in Terrorland,2023-12-26,6.0,166.0,San Francisco,2023-12-26,10.3,0.0,Christmas Eve,2024-12-24,2.0
+Alice in Terrorland,2023-12-26,6.0,166.0,New York,2023-12-26,7.4,0.0,Christmas Eve,2024-12-24,2.0
+Alice in Terrorland,2023-12-26,6.0,166.0,San Francisco,2023-12-26,10.3,0.0,Christmas Day,2024-12-25,1.0
+Alice in Terrorland,2023-12-26,6.0,166.0,New York,2023-12-26,7.4,0.0,Christmas Day,2024-12-25,1.0
+Alice in Terrorland,2023-12-26,6.0,166.0,San Francisco,2023-12-26,10.3,0.0,Day After Christmas Day,2024-12-26,0.0
+Alice in Terrorland,2023-12-26,6.0,166.0,New York,2023-12-26,7.4,0.0,Day After Christmas Day,2024-12-26,0.0
+Infested,2023-12-27,6.7,370.0,San Francisco,2023-12-27,12.8,1.5,Christmas Day,2024-12-25,2.0
+Infested,2023-12-27,6.7,370.0,New York,2023-12-27,7.9,6.7,Christmas Day,2024-12-25,2.0
+Infested,2023-12-27,6.7,370.0,San Francisco,2023-12-27,12.8,1.5,Day After Christmas Day,2024-12-26,1.0
+Infested,2023-12-27,6.7,370.0,New York,2023-12-27,7.9,6.7,Day After Christmas Day,2024-12-26,1.0

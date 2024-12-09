@@ -25,11 +25,11 @@ def analyze_data():
         w.precipitation,
         h.holiday_name, 
         h.date AS holiday_date,
-        ABS(julianday(m.release_date) - julianday(h.date)) AS days_difference
+        ABS(julianday('2024-' || strftime('%m-%d', m.release_date)) - julianday('2024-' || strftime('%m-%d', h.date))) AS days_difference
     FROM 
         movies m
     LEFT JOIN 
-        holidays h ON ABS(julianday(m.release_date) - julianday(h.date)) <= 5
+        holidays h ON ABS(julianday('2024-' || strftime('%m-%d', m.release_date)) - julianday('2024-' || strftime('%m-%d', h.date))) <= 2
     LEFT JOIN 
         weather w ON julianday(m.release_date) = julianday(w.date)
     LEFT JOIN 
