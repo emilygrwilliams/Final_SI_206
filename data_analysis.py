@@ -40,6 +40,7 @@ def analyze_data():
     
     df = pd.read_sql_query(query, conn)
     conn.close()
+    df.to_csv("analyzed_data.csv", index=False)
     return df
 
 # function to create a bar plot showing holiday nearby vs average popularity
